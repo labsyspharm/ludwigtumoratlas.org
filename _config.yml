@@ -20,3 +20,6 @@ collections:
 sass:
   sass_dir: src/_sass
   style: compact # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-seo-tag
