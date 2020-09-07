@@ -8,7 +8,10 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# Additional
+# Compiled output
+assets/js/
+
+# Misc
 .DS_Store
 Desktop.ini
 Thumbs.db

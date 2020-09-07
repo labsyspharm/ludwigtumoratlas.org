@@ -1,3 +1,4 @@
+repository: ludwig/jegra.github.io
 baseurl: '/ludwig'
 exclude:
   - Gemfile
