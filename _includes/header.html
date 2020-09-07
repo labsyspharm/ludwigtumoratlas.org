@@ -1,0 +1,12 @@
+<header class="header">
+    <nav class="header__nav">
+        {% assign menu = site.data.menus.main %}
+        <ul>
+            {% for item in menu %}
+                <li class="header__nav-item">
+                    <a href="{{ item.url }}" target="{{ item.target }}">{{ item.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

@@ -1,0 +1,22 @@
+baseurl: '/ludwig'
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - src/js
+  - README.md
+  - package.json
+  - webpack.dev.js
+  - webpack.prod.js
+  - yarn.lock
+permalink: pretty
+title: 'Ludwig Tumor Atlas'
+
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
+sass:
+  sass_dir: src/_sass
+  style: compact # possible values: nested expanded compact compressed
