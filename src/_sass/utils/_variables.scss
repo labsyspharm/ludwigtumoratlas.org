@@ -1,0 +1,58 @@
+// Colors
+$color_black:#000000;
+$color_white:#ffffff;
+$color_blue:#5c83bf;        
+$color_light-blue:#5cddff;        
+$color_dark-blue:#2b3e67;        
+
+/*
+$color_aqua:#23A9D1;
+$color_blue2:#1a69a1;       // CCSP ? Cores page. Unnecessary ?
+$color_blue2:#0078a5;       // CRS | CRS (Events) #3777a1?
+$color_blue-gray:#d2d9de;	// CRS Event Videos
+$color_dark-blue:#083250;   // CCSP
+$color_dark-gray:#58585a;   // CCSP | CRS #58595b?
+$color_darker-gray:#222222; // CCSP
+$color_gray:#828285;        // CCSP
+$color_light-blue:#d1e1ed;  // CCSP
+$color_light-gray:#929497;  // CCSP
+$color_light-gray2:#a9a9a9; // CCSP
+$color_light-gray3:#d7d7d7; // CCSP
+$color_light-gray4:#d5d5d6; // CRS | CRS (Events) #d2d9de? 
+$color_light-gray5:#878786; // CRS
+$color_med-blue:#149FCB;
+$color_off-black:#050505;   // CCSP #010101?
+$color_off-white:#f2f2f2;   // CCSP
+$color_orange:#fd4f00;      // CCSP
+$color_orange:#f57d20;      // CRS
+$color_teal:#179aa3;        // CRS
+*/
+
+// Header Sizes
+$header_height_mobile:70px;
+$header_height_tablet:120px;
+$header_height_desktop:210px;
+
+// Margin Sizes
+$margin_mobile:20px;
+$margin_tablet:30px;
+$margin_desktop:72px;
+
+// Content Sizes
+$max-narrow-content-width:1074px;
+$max-narrow-screen-width:$max-narrow-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
+$max-content-width:1296px;
+$max-screen-width:$max-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
+$supermax-content-width:1400px;
+
+
+// Track z-index layers used by elements affected by overlays
+$index_header: 10;
+
+// Easing Equations
+$ease-out-quad:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+$ease-out-quart:cubic-bezier(0.165, 0.84, 0.44, 1);
+$ease-out-quint:cubic-bezier(0.23, 1, 0.32, 1);
+$ease-out-back:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$ease-in-out-quad:cubic-bezier(0.455, 0.030, 0.515, 0.955);
+$ease-in-out-quart:cubic-bezier(0.77, 0, 0.175, 1);

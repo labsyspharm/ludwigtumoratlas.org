@@ -1,12 +1,48 @@
-<header class="header">
-    <nav class="header__nav">
-        {% assign menu = site.data.menus.main %}
-        <ul>
+<nav id="site-navigation-mobile" class="nav-bar-mobile">
+        <div class="mobile-nav-close">
+            <a href="#" class="site-header__menu-icon-close-link"></a>
+        </div>
+        <div class="nav-bar-mobile__inner-wrap">
+
+        <ul class="nav-bar-mobile__list">
+            {% assign menu = site.data.menus.main %}
             {% for item in menu %}
-                <li class="header__nav-item">
-                    <a href="{{ item.url }}" target="{{ item.target }}">{{ item.name }}</a>
+                <li class="menu-header nav-bar-mobile__item">
+                    <a href="{{ item.url | relative_url }}" class="{% if item.sectionId == page.sectionId %}active{% endif %} nav-bar-mobile__link" target="{{ item.target }}">{{item.name }}</a>
                 </li>
             {% endfor %}
         </ul>
-    </nav>
+    </div>
+</nav>
+
+<header class="site-header js-scroll-offset">
+    <div class="site-header__inner container-1296">
+        <div class="site-header__branding">
+            <a href="{{ '/' | relative_url }}" class="site-header__branding-link">Ludwig Tumor Atlas</a>
+        </div>
+        <!-- MAIN NAV: MOBILE -->
+        <div class="site-header__menu-icon site-header__mobile-nav">
+            <a href="#" class="site-header__menu-icon-link"></a>
+        </div>
+
+        <div class="nav-container">
+            <!-- MAIN NAV: DESKTOP -->
+            <nav id="site-navigation" class="nav-bar">
+
+                <div class="nav-bar__heading">Ludwig Tumor Atlas</div>
+
+                <ul class="nav-bar__list">
+                    {% assign menu = site.data.menus.main %}
+                    {% for item in menu %}
+                        <li class="menu-header nav-bar__item">
+                            <a href="{{ item.url | relative_url }}" class="{% if item.sectionId == page.sectionId %}active{% endif %} nav-bar__link" target="{{ item.target }}">{{item.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            </nav>
+        </div>
+        <!-- #site-navigation -->
+
+    </div>
 </header>

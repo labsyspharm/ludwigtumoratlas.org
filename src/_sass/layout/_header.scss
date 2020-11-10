@@ -1,0 +1,90 @@
+//-------------------------------------------------------------------
+// Site Header
+//-------------------------------------------------------------------
+.site-header {
+    position:fixed;
+    background:$color_white;
+    z-index:$index_header;
+    width:100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+
+    @include breakpoint(desktop) {
+        background:rgba(255,255,255,0.86);        
+    }
+}
+
+.site-header__inner {
+    height:$header_height_mobile;
+    max-width:$max-content-width;
+    display:flex;
+    justify-content:space-between;
+    transition:all 0.2s $ease-out-quad;
+
+    @include breakpoint(desktop) {
+        overflow:visible;
+        height:$header_height_tablet;
+        justify-content:flex-start;
+    }
+    @include breakpoint(desktop-xxl) {
+        height:$header_height_desktop;     
+    }
+}
+
+// Branding ---------------------------------------------------------
+.site-header__branding {
+    transition:width 0.2s $ease-out-quad, 
+        margin 0.2s $ease-out-quad;
+}
+
+
+.site-header__branding-link {
+    display:block;
+    width:65px;
+    height:65px;
+    margin-top:5px;
+    text-indent:-9999px;
+    background:url('../img/logo-ludwig.svg') left center no-repeat;
+    background-size:contain;
+    transition:width 0.2s $ease-out-quad, height 0.2s $ease-out-quad;
+
+    @include breakpoint(desktop) {
+        width:105px;
+        height:105px;
+        margin-top:15px;
+    }
+    @include breakpoint(desktop-xxl) {
+        width:165px;
+        height:165px;
+        margin-top:45px;
+    }
+}
+
+// ------------------------------------------------------------------
+// Mobile nav men (top level items) / Hamburger menu
+// ------------------------------------------------------------------
+
+.site-header__menu-icon {
+    margin-left:auto;
+    @include breakpoint(desktop) {
+        display:none;
+    }
+    @include breakpoint(desktop) {
+        display:none;
+    }
+}
+
+.site-header__menu-icon-link {
+    position: relative;
+    display: block;
+    background:url('../img/icon-mobile-menu.svg') left center no-repeat;
+    width:40px;
+    height:40px;
+    margin-top:15px;
+    text-align: center;
+    border:none;
+
+    &:hover {
+        border:none;
+    }
+
+}

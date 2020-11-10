@@ -11,6 +11,12 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-hoverintent": "^1.10.1",
+    "jquery.easing": "^1.4.1",
+    "picturefill": "^3.0.3"
+  },
   "browserslist": [
     "defaults"
   ],

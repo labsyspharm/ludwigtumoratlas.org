@@ -1,4 +1,4 @@
-repository: ludwig/jegra.github.io
+repository: jegra.github.io/ludwig
 baseurl: '/ludwig'
 exclude:
   - Gemfile

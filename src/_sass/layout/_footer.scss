@@ -1,0 +1,74 @@
+//-------------------------------------------------------------------
+// Site Footer
+//-------------------------------------------------------------------
+.site-footer {
+    background:$color_dark-blue;
+}
+.site-footer__credits {
+    @extend %text-style-1;
+    color:$color_white;
+    background:$color_blue;
+    padding:30px 0;
+}
+.site-footer__credits-container {
+    @extend %container-narrow;
+}
+.site-footer__main {
+    @extend %container-narrow;
+    @extend %text-style-3;
+    color: $color_white;
+    padding-top:50px;
+    padding-bottom:10px;
+}
+.site-footer__logo-list {
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-align:center;
+
+    @include breakpoint(desktop-l) {
+        text-align:left;
+    }
+}
+.site-footer__logo-item {
+    
+    margin-bottom:60px;
+    padding:0;
+    text-align:center;
+    
+    span {
+        display:block;
+        padding-top:15px;
+    }
+
+    // Place first 2 items (of 3) in a row, with the third below
+    @include breakpoint("min-width:560px") {
+        display:inline-block;
+
+        &:first-child {
+            margin-right:60px;
+        }
+        &:last-child {
+            display:block;
+        }
+    }
+    @include breakpoint(desktop-l) {
+        margin-right:100px;
+        display:inline-block;
+
+        img {
+            margin-right:10px;
+        }
+        span {
+            display:inline-block;
+            padding-top:0;
+        }
+        &:first-child {
+            margin-right:100px;
+        }
+        &:last-child {
+            display:inline-block;
+            margin-right:0;
+        }
+    }
+}

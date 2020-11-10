@@ -1,0 +1,121 @@
+//-------------------------------------------------------------------
+// Home Main Content
+//-------------------------------------------------------------------
+
+section.hero {
+    position:relative;
+    padding:0;
+}
+// .hero__container {
+
+// }
+.hero__image {
+    width:100%;
+    padding-top: $header_height_mobile;
+    min-height: 280px;
+    box-sizing:content-box;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    transition:all 0.2s $ease-out-quad;
+    
+    @include breakpoint(mobile-h) {
+        min-height: 340px;
+    }
+    @include breakpoint(tablet-v) {
+        min-height: 400px;
+    }
+    @include breakpoint(desktop) {
+        padding-top: $header_height_tablet;
+    }
+    @include breakpoint(desktop-xxl) {
+        padding-top: $header_height_desktop;
+        min-height: 530px;
+    }
+}
+
+.hero__text-container {
+    @extend %container-narrow;
+    padding:30px 0;
+    width:100%;
+
+    @include breakpoint(mobile-h) {
+        padding:40px 0;
+    }
+    @include breakpoint(tablet-v) {
+        padding:60px 0;
+    }
+    @include breakpoint(desktop-l) {
+        padding:100px 0;
+    }
+}
+.hero__text {
+    background-color:rgba(92,131,191,0.86);
+    max-width:640px;
+    padding:16px 16px;
+    margin:0;
+    box-sizing:border-box;
+
+    @include breakpoint(desktop) {
+        max-width:800px;
+        padding:30px 36px;
+    }
+    @include breakpoint(desktop-l) {
+        max-width:835px;
+    }
+
+    a {
+        color:$color_white;
+
+        &:hover {
+            color:$color_light-blue;
+        }
+
+        &:after {
+            @include font-size(24px);
+            color:$color_white;
+            left:5px;
+        }
+        &:hover:after {
+            left: 20px;
+        }
+    }
+}
+.hero__text h1 {
+    position:relative;
+    @extend %heading-style-1;
+    @include font-size(20px);
+    color:$color-white;
+    text-align:left;
+    margin:0;
+
+    @include breakpoint(desktop) {
+        @include font-size(24px);
+    }
+    @include breakpoint(desktop-xxl) {
+        @include font-size(28px);
+    }
+}
+
+.container-basic {
+    @extend %container;
+    text-align:center;
+}
+.container-tight-mobile {
+    @extend %container-tight-mobile;
+}
+.container-narrower {
+    @extend %container-narrower;
+}
+.container-1010 {
+    @extend %container-1010;
+}
+.container-1120 {
+    // 160px margins @1440px width.
+    @extend %container-1120;
+}
+.container-1296 {
+    // 72px margins @1440px width.
+    @extend %container-1296;
+}

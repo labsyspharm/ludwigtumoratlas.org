@@ -1,0 +1,13 @@
+.secondary {
+
+
+}
+
+.secondary__hero {
+    height:295px;
+    background-size:cover;
+}
+
+.secondary__content-wrap {
+    @extend %container-narrow;
+}

@@ -8,9 +8,6 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 
-# Compiled output
-assets/js/
-
 # Misc
 .DS_Store
 Desktop.ini

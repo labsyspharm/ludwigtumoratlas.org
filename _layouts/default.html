@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>{% if page.title %}{{page.title}}{% else %}{{ site.title }}{% endif %}</title>
-    {% seo %}
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700" rel="stylesheet">
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+
+    {% seo %}
 </head>
-<body>
+
+<body class="{{ page.bodyClass }}" data-page-module="{{ page.pageModule }}">
+
     {% include header.html %}
-    {{ content }}
+
+    <div class="page-content-wrap">
+        <div id="primary" class="content-area">
+            <main id="main" class="site-main">
+
+                {{ content }}
+
+            </main>
+        </div>
+    </div>
+
+    {% include footer.html %}
 
     <script type="text/javascript" src="{{ "/assets/js/bundle.js" | relative_url }}"></script>
 </body>

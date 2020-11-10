@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+    color:$color_black;
+}
+
+body {
+
+}
+
+a {
+    color:$color_blue;
+    transition:color 0.2s $ease-out-quad, border-color 0.2s $ease-out-quad;
+
+    &:hover {
+        text-decoration:none;
+    }
+}
+
+ul {
+    padding-inline-start:0;
+}
+
+section {
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+p {
+    &:first-of-type {
+        margin-top:0;
+    }
+    &:last-of-type {
+        margin-bottom:0;
+    }
+}
+
+*:focus {
+    outline:0;
+}
