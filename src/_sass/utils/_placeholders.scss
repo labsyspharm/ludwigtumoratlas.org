@@ -70,10 +70,10 @@
         margin-right: $margin_tablet;
     }
 
-    @include breakpoint(desktop) {
-        margin-left: $margin_desktop;
-        margin-right: $margin_desktop;
-    }
+    // @include breakpoint(desktop) {
+    //     margin-left: $margin_desktop;
+    //     margin-right: $margin_desktop;
+    // }
 
     @include breakpoint("min-width:#{$max-narrow-screen-width}") {
         max-width:$max-narrow-content-width;

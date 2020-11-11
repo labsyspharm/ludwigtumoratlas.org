@@ -43,7 +43,7 @@ $margin_desktop:72px;
 
 // Content Sizes
 $max-narrower-content-width:952px;
-$max-narrower-screen-width:$max-narrower-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
+$max-narrower-screen-width:$max-narrower-content-width + ($margin_tablet * 2) + 16px;  // Add 16 for scrollbar
 $max-narrow-content-width:1074px;
 $max-narrow-screen-width:$max-narrow-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
 $max-content-width:1296px;

@@ -1,3 +1,34 @@
 //-------------------------------------------------------------------
 // Button Styles (consider using placeholders to extend)
 //-------------------------------------------------------------------
+
+.arrow-button {
+    display:inline-block;
+    color:$color_dark-blue;
+    text-transform:uppercase;
+    text-decoration:none;
+    border:2px solid $color_dark-blue;
+    padding:7px 20px 7px 14px;
+    transition:all 0.2s $ease-out-quad;
+    &:hover {
+        text-decoration:none;
+    }
+
+    &:after {
+        content:"\E81E";
+        font-family:fontello;
+        margin-left:10px;
+        position:relative;
+        left:0;
+        transition:all 0.2s $ease-out-quad;
+    }
+    &:hover {
+        background:$color_dark-blue;
+        color:$color_white;
+
+        &:after {
+            color:$color_white;
+            left:5px;
+        }
+    }
+}
