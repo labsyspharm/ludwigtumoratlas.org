@@ -1,5 +1,6 @@
 repository: jegra.github.io/ludwig
 baseurl: '/ludwig'
+imgbaseurl: 'https://ludwig-dev.imgix.net/'
 exclude:
   - Gemfile
   - Gemfile.lock

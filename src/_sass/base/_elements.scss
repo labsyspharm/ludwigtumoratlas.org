@@ -4,7 +4,12 @@ html {
 }
 
 body {
+    @extend %text-style-2;
+}
 
+h1 {
+    @extend %heading-style-1;
+    color: $color_dark-blue;
 }
 
 a {

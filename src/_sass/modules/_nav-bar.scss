@@ -93,6 +93,13 @@
             left:0;
         }
     }
+
+    &.active {
+        &::before {
+            width:100%;
+            border-bottom:3px solid $color_light-blue;
+        }
+    }
     
 }
 .util-nav-bar .nav-bar__link,
@@ -205,7 +212,7 @@ li.nav-bar__item {
         margin-bottom:0;
     }
 
-    &.is-selected a {
+    &.active a {
         padding-bottom:0;
         border-bottom:2px solid $color_light-blue;
     }

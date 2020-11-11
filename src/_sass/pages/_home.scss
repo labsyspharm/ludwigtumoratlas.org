@@ -9,6 +9,7 @@ section.hero {
 // .hero__container {
 
 // }
+
 .hero__image {
     width:100%;
     padding-top: $header_height_mobile;
@@ -19,17 +20,23 @@ section.hero {
     display:flex;
     align-items:center;
     transition:all 0.2s $ease-out-quad;
+    @include background-image($heroImage, 768, 480, 'crop', 25);
     
     @include breakpoint(mobile-h) {
         min-height: 340px;
     }
     @include breakpoint(tablet-v) {
+        @include background-image($heroImage, 1200, 520, 'crop', 25);
         min-height: 400px;
     }
     @include breakpoint(desktop) {
         padding-top: $header_height_tablet;
     }
+    @include breakpoint(desktop-l) {
+        @include background-image($heroImage, 1800, 540, 'crop', 25);
+    }
     @include breakpoint(desktop-xxl) {
+        @include background-image($heroImage, 1920, 740, 'crop', 25);
         padding-top: $header_height_desktop;
         min-height: 530px;
     }
@@ -84,18 +91,11 @@ section.hero {
 }
 .hero__text h1 {
     position:relative;
-    @extend %heading-style-1;
-    @include font-size(20px);
+    @extend %heading-style-callout;
+    
     color:$color-white;
     text-align:left;
     margin:0;
-
-    @include breakpoint(desktop) {
-        @include font-size(24px);
-    }
-    @include breakpoint(desktop-xxl) {
-        @include font-size(28px);
-    }
 }
 
 .container-basic {

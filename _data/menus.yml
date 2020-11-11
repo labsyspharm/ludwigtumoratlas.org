@@ -17,7 +17,7 @@ main:
     target: "_self"
   - name: "Publications"
     sectionId: publications
-    url: "/data"
+    url: "/publications"
     target: "_self"
   - name: "Methods"
     sectionId: methods

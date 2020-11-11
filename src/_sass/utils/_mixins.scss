@@ -68,3 +68,7 @@
         }
     }
 }
+
+@mixin background-image($file, $width, $height: null, $mode: crop, $quality: 75 ) {
+    background-image:url('#{$imgbaseurl}#{$file}?w=#{$width}&h=#{$height}&fit=#{$mode}&q=#{$quality}');
+}
