@@ -75,3 +75,29 @@
         top:(-$header_height_desktop - 20px);
     }
 }
+
+/*
+ * Containers
+ */
+
+.container-basic {
+    @extend %container;
+    text-align:center;
+}
+.container-tight-mobile {
+    @extend %container-tight-mobile;
+}
+.container-narrower {
+    @extend %container-narrower;
+}
+.container-1010 {
+    @extend %container-1010;
+}
+.container-1120 {
+    // 160px margins @1440px width.
+    @extend %container-1120;
+}
+.container-1296 {
+    // 72px margins @1440px width.
+    @extend %container-1296;
+}

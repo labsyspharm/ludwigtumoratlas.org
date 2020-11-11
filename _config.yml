@@ -18,6 +18,8 @@ collections:
   pages:
     output: true
     permalink: /:path
+  datasets:
+    output: false
 
 sass:
   sass_dir: src/_sass

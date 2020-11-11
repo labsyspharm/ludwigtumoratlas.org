@@ -13,3 +13,21 @@ layout: default
         </div>
     </div>
 </section>
+
+<section class="featured-data">
+    <div class="featured-data__inner container-narrower">
+        <h2 class="featured-data__heading">Featured Data</h2>
+        <ul class="featured-data__items">
+            {% assign sorted = site.datasets | sort: 'date' | reverse %}
+            {% for dataset in sorted %}
+                <li class="featured-data__item">
+                    <div class="featured-data__image">
+                        <img src="{{ site.imgbaseurl }}{{ dataset.image }}?w=295&h=280&fit=crop" alt="Data image">
+                    </div>
+                <a href="{{ dataset.url }}">{{ dataset.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+        <a href="#">View all data</a>
+    </div>
+</section>

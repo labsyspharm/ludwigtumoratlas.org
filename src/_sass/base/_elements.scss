@@ -11,6 +11,10 @@ h1 {
     @extend %heading-style-1;
     color: $color_dark-blue;
 }
+h2 {
+    @extend %heading-style-2;
+    color: $color_blue;
+}
 
 a {
     color:$color_blue;
@@ -25,10 +29,10 @@ ul {
     padding-inline-start:0;
 }
 
-section {
-    padding-top:40px;
-    padding-bottom:40px;
-}
+// section {
+//     padding-top:40px;
+//     padding-bottom:40px;
+// }
 
 p {
     &:first-of-type {

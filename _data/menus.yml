@@ -1,25 +1,25 @@
 main:
   - name: "About"
-    sectionId: about
+    section_id: about
     url: "/about"
     target: "_self"
   - name: "People"
-    sectionId: people
+    section_id: people
     url: "/people"
     target: "_self"
   - name: "Projects"
-    sectionId: projects
+    section_id: projects
     url: "/projects"
     target: "_self"
   - name: "Data"
-    sectionId: data
+    section_id: data
     url: "/data"
     target: "_self"
   - name: "Publications"
-    sectionId: publications
+    section_id: publications
     url: "/publications"
     target: "_self"
   - name: "Methods"
-    sectionId: methods
+    section_id: methods
     url: "https://www.cycif.org/"
     target: "_blank"

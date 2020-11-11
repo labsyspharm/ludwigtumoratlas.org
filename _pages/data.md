@@ -2,9 +2,8 @@
 title: Data
 permalink: /data
 
-sectionId: data
+section_id: data
 layout: secondary
-pageModule: 
 ---
 
 # Data

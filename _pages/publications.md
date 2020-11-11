@@ -2,9 +2,8 @@
 title: Publications
 permalink: /publications
 
-sectionId: publications
+section_id: publications
 layout: secondary
-pageModule: 
 ---
 
 # Publications

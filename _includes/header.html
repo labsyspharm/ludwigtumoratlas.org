@@ -8,7 +8,7 @@
             {% assign menu = site.data.menus.main %}
             {% for item in menu %}
                 <li class="menu-header nav-bar-mobile__item">
-                    <a href="{{ item.url | relative_url }}" class="{% if item.sectionId == page.sectionId %}active{% endif %} nav-bar-mobile__link" target="{{ item.target }}">{{item.name }}</a>
+                    <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar-mobile__link" target="{{ item.target }}">{{item.name }}</a>
                 </li>
             {% endfor %}
         </ul>
@@ -35,7 +35,7 @@
                     {% assign menu = site.data.menus.main %}
                     {% for item in menu %}
                         <li class="menu-header nav-bar__item">
-                            <a href="{{ item.url | relative_url }}" class="{% if item.sectionId == page.sectionId %}active{% endif %} nav-bar__link" target="{{ item.target }}">{{item.name }}</a>
+                            <a href="{{ item.url | relative_url }}" class="{% if item.section_id == page.section_id %}active{% endif %} nav-bar__link" target="{{ item.target }}">{{item.name }}</a>
                         </li>
                     {% endfor %}
                 </ul>

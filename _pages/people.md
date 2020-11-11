@@ -2,9 +2,8 @@
 title: People
 permalink: /people
 
-sectionId: people
+section_id: people
 layout: secondary
-pageModule: 
 ---
 
 # People

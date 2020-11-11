@@ -121,9 +121,8 @@
         // margin-right: $margin_desktop;
     }
 
-    @include breakpoint(desktop) {
-    // @include breakpoint("min-width:#{$max-screen-width}") {
-        max-width:940px;
+    @include breakpoint("min-width:#{$max-narrower-screen-width}") {
+        max-width:$max-narrower-content-width;
         margin-left:auto;
         margin-right:auto;
     }

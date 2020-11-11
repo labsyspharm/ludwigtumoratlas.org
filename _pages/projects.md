@@ -2,9 +2,8 @@
 title: Projects
 permalink: /projects
 
-sectionId: projects
+section_id: projects
 layout: secondary
-pageModule: 
 ---
 
 # Projects
