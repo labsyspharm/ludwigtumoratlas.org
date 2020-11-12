@@ -80,24 +80,12 @@
  * Containers
  */
 
-.container-basic {
+.container {
     @extend %container;
-    text-align:center;
 }
-.container-tight-mobile {
-    @extend %container-tight-mobile;
+.container-narrow {
+    @extend %container-narrow;
 }
-.container-narrower {
-    @extend %container-narrower;
-}
-.container-1010 {
-    @extend %container-1010;
-}
-.container-1120 {
-    // 160px margins @1440px width.
-    @extend %container-1120;
-}
-.container-1296 {
-    // 72px margins @1440px width.
-    @extend %container-1296;
+.container-wide {
+    @extend %container-wide;
 }

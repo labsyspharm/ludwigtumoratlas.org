@@ -42,7 +42,6 @@
 %container {
     margin-left: $margin_mobile;
     margin-right: $margin_mobile;
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
 
     @include breakpoint(tablet-v) {
         margin-left: $margin_tablet;
@@ -60,20 +59,20 @@
         margin-right:auto;
     }
 }
+
 %container-narrow {
     margin-left: $margin_mobile;
     margin-right: $margin_mobile;
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
 
     @include breakpoint(tablet-v) {
         margin-left: $margin_tablet;
         margin-right: $margin_tablet;
     }
 
-    // @include breakpoint(desktop) {
-    //     margin-left: $margin_desktop;
-    //     margin-right: $margin_desktop;
-    // }
+    @include breakpoint(desktop) {
+        margin-left: $margin_desktop;
+        margin-right: $margin_desktop;
+    }
 
     @include breakpoint("min-width:#{$max-narrow-screen-width}") {
         max-width:$max-narrow-content-width;
@@ -82,56 +81,9 @@
     }
 }
 
-
-%container-tight-mobile {
-    margin-left: calc(#{$margin_mobile} + 40px);
-    margin-right: calc(#{$margin_mobile} + 40px);
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
-
-    @include breakpoint(tablet-v) {
-        margin-left: $margin_tablet;
-        margin-right: $margin_tablet;
-    }
-
-    @include breakpoint(desktop) {
-        margin-left: $margin_desktop;
-        margin-right: $margin_desktop;
-    }
-
-    @include breakpoint("min-width:#{$max-screen-width}") {
-        max-width:$max-content-width;
-        margin-left:auto;
-        margin-right:auto;
-    }
-
-}
-
-%container-narrower {
+%container-wide {
     margin-left: $margin_mobile;
     margin-right: $margin_mobile;
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
-
-    @include breakpoint(tablet-v) {
-        margin-left: $margin_tablet;
-        margin-right: $margin_tablet;
-    }
-
-    @include breakpoint(desktop) {
-        // margin-left: $margin_desktop;
-        // margin-right: $margin_desktop;
-    }
-
-    @include breakpoint("min-width:#{$max-narrower-screen-width}") {
-        max-width:$max-narrower-content-width;
-        margin-left:auto;
-        margin-right:auto;
-    }
-}
-
-%container-1000 {
-    margin-left: calc(#{$margin_mobile} + 0px);
-    margin-right: calc(#{$margin_mobile} + 0px);
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
 
     @include breakpoint(tablet-v) {
         margin-left: $margin_tablet;
@@ -143,86 +95,11 @@
         margin-right: $margin_desktop;
     }
 
-    @include breakpoint("min-width:#{$max-screen-width}") {
-        max-width:1000px;
+    @include breakpoint("min-width:#{$max-wide-screen-width}") {
+        max-width:$max-wide-content-width;
         margin-left:auto;
         margin-right:auto;
     }
-}
-%container-1010 {
-    margin-left: calc(#{$margin_mobile} + 0px);
-    margin-right: calc(#{$margin_mobile} + 0px);
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
-
-    @include breakpoint(tablet-v) {
-        margin-left: $margin_tablet;
-        margin-right: $margin_tablet;
-    }
-
-    @include breakpoint(desktop) {
-        max-width:1010px;
-        margin-left: $margin_desktop;
-        margin-right: $margin_desktop;
-    }
-
-    @include breakpoint(desktop-l) {
-        max-width:1010px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-}
-%container-1120 {
-    margin-left: calc(#{$margin_mobile} + 0px);
-    margin-right: calc(#{$margin_mobile} + 0px);
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
-
-    @include breakpoint(tablet-v) {
-        margin-left: $margin_tablet;
-        margin-right: $margin_tablet;
-    }
-
-    @include breakpoint(desktop) {
-        margin-left: $margin_desktop;
-        margin-right: $margin_desktop;
-    }
-
-    @include breakpoint("min-width:#{1264px}") {
-    // @include breakpoint("min-width:#{$max-screen-width}") {
-    // @include breakpoint(desktop-xl) {
-        max-width:1120px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-}
-%container-1296 {
-    margin-left: calc(#{$margin_mobile} + 0px);
-    margin-right: calc(#{$margin_mobile} + 0px);
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
-
-    @include breakpoint(tablet-v) {
-        margin-left: $margin_tablet;
-        margin-right: $margin_tablet;
-    }
-
-    @include breakpoint(desktop) {
-        margin-left: $margin_desktop;
-        margin-right: $margin_desktop;
-    }
-
-    @include breakpoint("min-width:#{1440px}") {
-    // @include breakpoint("min-width:#{$max-screen-width}") {
-   // @include breakpoint(desktop-xl) {
-        max-width:1296px;
-        margin-left:auto;
-        margin-right:auto;
-    }
-}
-
-%container-1400 {
-    width:100%;
-    max-width:$supermax-content-width;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 
@@ -237,7 +114,6 @@
 %container-nomax {
     margin-left: $margin_mobile;
     margin-right: $margin_mobile;
-    overflow:hidden;    // To avoid scrolling on left/right scroll reveal elements
 
     @include breakpoint(tablet-v) {
         margin-left: $margin_tablet;
@@ -249,6 +125,7 @@
         margin-right: $margin_desktop;
     }
 }
+
 
 // For items where we need to reserve enough horizontal space to
 // accomodate a bolded typeface on rollover (avoids pixel shift

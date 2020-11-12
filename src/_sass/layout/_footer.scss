@@ -11,10 +11,10 @@
     padding:30px 0;
 }
 .site-footer__credits-container {
-    @extend %container-narrow;
+    @extend %container;
 }
 .site-footer__main {
-    @extend %container-narrow;
+    @extend %container;
     @extend %text-style-3;
     color: $color_white;
     padding-top:50px;

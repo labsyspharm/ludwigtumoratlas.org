@@ -6,6 +6,9 @@ module.exports = {
     entry: [
         './src/js/index.js'
     ],
+    externals: {
+        'jquery': 'jQuery'
+    },
     output: {
         path: path.resolve(__dirname, 'assets/js'),
         filename: 'bundle.js'

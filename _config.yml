@@ -19,7 +19,30 @@ collections:
     output: true
     permalink: /:path
   datasets:
-    output: false
+    output: true
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ''
+      type: datasets
+    values:
+      section_id: data
+      layout: summary
+      heading: Data
+      sub_heading: Data Summary
+      wide_container: true
+  - scope:
+      path: ''
+      type: projects
+    values:
+      section_id: projects
+      layout: summary
+      heading: Projects
+      sub_heading: Project Summary
+      wide_container: true
+
 
 sass:
   sass_dir: src/_sass

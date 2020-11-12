@@ -7,7 +7,9 @@ layout: default
         <div class="hero__image">
             <div class="hero__text-container">
                 <div class="hero__text">
+                    
                     <h1>{{ content }}</h1>
+
                 </div>
             </div>
         </div>
@@ -15,37 +17,16 @@ layout: default
 </section>
 
 <section class="featured-data">
-    <div class="featured-data__inner container-narrower">
+    <div class="featured-data__inner container-narrow">
         <h2 class="featured-data__heading">Featured Data</h2>
-        <ul class="featured-data__items">
+        <div class="featured-data__items">
             {% assign sorted = site.datasets | sort: 'date' | reverse %}
-            {% for dataset in sorted %}
-                <li class="featured-data__item">
-                    <div class="featured-data__image">
-                        <img src="{{ site.imgbaseurl }}{{ dataset.image }}?w=295&h=280&fit=crop" alt="Data image">
-                    </div>
-                    <div class="featured-data__content">
-                        <p>{{ dataset.title }}</p>
-                        <ul class="featured-data__links">
-                            {%- if dataset.minerva_link -%}
-                                <li class="featured-data__link">
-                                    <a href="{{ dataset.minerva_link }}">
-                                        <img src="{{ '/assets/img/icon-minerva.svg' | relative_url }}" alt="Minerva">
-                                    </a>
-                                </li>
-                            {%- endif -%}
-                            {%- if dataset.info_link -%}
-                                <li class="featured-data__link">
-                                    <a href="{{ dataset.info_link }}">
-                                        <img src="{{ '/assets/img/icon-info.svg' | relative_url }}" alt="Info">
-                                    </a>
-                                </li>
-                            {%- endif -%}
-                        </ul>
-                    </div>
-                </li>
+            {% for dataset in sorted limit:3 %}
+
+                {% include data-card.html content=dataset %}
+                
             {% endfor %}
-        </ul>
+        </div>
         <a href="{{ 'data' | relative_url }}" class="arrow-button">View all data</a>
     </div>
 </section>

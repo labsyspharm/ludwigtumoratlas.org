@@ -42,6 +42,7 @@
 @import "layout/header";
 @import "layout/footer";
 @import "layout/secondary";
+@import "layout/summary";
 
 
 // ----------------------------------------------------------------------------
@@ -49,13 +50,17 @@
 // ----------------------------------------------------------------------------
 @import "modules/nav-bar";
 @import "modules/hero";
-@import "modules/featured-data";
+@import "modules/data-card";
+@import "modules/project-listing";
+@import "modules/modal";
 
 
 // ----------------------------------------------------------------------------
 // Pages - Page-specific styling (if needed)
 // ----------------------------------------------------------------------------
 @import "pages/home";
+@import "pages/data";
+@import "pages/projects";
 
 
 // ----------------------------------------------------------------------------

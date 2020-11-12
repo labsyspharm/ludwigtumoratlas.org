@@ -1,0 +1,53 @@
+<div class="project-listing">
+    <div class="project-listing__heading">Project {{ include.counter }}</div>
+    <h2 class="project-listing__title">
+        {%- if include.content.show_page_link -%}<a href="{{ include.content.url | relative_url }}">{%- endif -%}
+            {{ include.content.title }}
+        {%- if include.content.show_page_link -%}</a>{%- endif -%}        
+    </h2>
+    {%- if include.content.abstract -%}
+        <div class="project-listing__abstract">
+            <div class="project-listing__secondary-heading">Abstract:</div>
+            {{ include.content.abstract | markdownify }}
+        </div>
+    {%- endif -%}
+    {%- if include.content.images -%}
+        <div class="project-listins__thumbs">
+            {% assign imgCounter = 0 %}
+            {%- for image in include.content.images -%}
+
+                {% assign imgCounter = imgCounter | plus: 1 %}
+                {% assign imgId = 'img' | append: include.counter | append: imgCounter %}
+
+                <div class="project-listing__thumb">
+                    <a href="#{{ imgId }}" data-lity>
+                        <img src="{{ site.imgbaseurl }}{{ image.path }}?w=126&h=86&fit=crop" alt="{{ image.caption_heading }}">
+                        <span class="project-listing__thumb-label">Click to Enlarge</span>
+                    </a>
+
+                    <div id="{{ imgId }}" class="lity-hide modal">
+                        <img src="{{ site.imgbaseurl }}{{ image.path }}?w=800" alt="{{ image.caption_heading }}">
+                        <div class="modal__caption">
+                            <div class="modal__caption-heading">{{ image.caption_heading }}</div>
+                            {{ image.caption_body | markdownify }}
+                        </div>
+                    </div>
+                </div>
+                
+            {%- endfor -%}
+        </div>
+    {%- endif -%}
+
+    {%- if include.content.related_links -%}
+        <div class="project-listing__related-links">
+            <div class="project-listing__secondary-heading">Related Links:</div>
+            <ul class="project-listing__related-links-list">
+                {%- for link in include.content.related_links -%}
+                    <li class="project-listing__related-links-item">
+                        {{ link | markdownify }}
+                    </li>
+                {%- endfor -%}
+            </ul>
+        </div>
+    {%- endif -%}
+</div>

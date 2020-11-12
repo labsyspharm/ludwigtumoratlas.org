@@ -15,7 +15,6 @@
 
 .site-header__inner {
     height:$header_height_mobile;
-    max-width:$max-content-width;
     display:flex;
     justify-content:space-between;
     transition:all 0.2s $ease-out-quad;

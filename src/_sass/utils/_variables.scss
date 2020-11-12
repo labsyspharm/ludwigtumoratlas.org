@@ -3,7 +3,8 @@ $color_black:#000000;
 $color_white:#ffffff;
 $color_blue:#5c83bf;        
 $color_light-blue:#5cddff;        
-$color_dark-blue:#2b3e67;        
+$color_dark-blue:#2b3e67;   
+$color_dark-gray:#58585a;     
 
 /*
 $color_aqua:#23A9D1;
@@ -41,14 +42,16 @@ $margin_mobile:20px;
 $margin_tablet:30px;
 $margin_desktop:72px;
 
+
 // Content Sizes
-$max-narrower-content-width:952px;
-$max-narrower-screen-width:$max-narrower-content-width + ($margin_tablet * 2) + 16px;  // Add 16 for scrollbar
-$max-narrow-content-width:1074px;
-$max-narrow-screen-width:$max-narrow-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
-$max-content-width:1296px;
+$max-content-width:1080px;
 $max-screen-width:$max-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
-$supermax-content-width:1400px;
+
+$max-narrow-content-width:950px;
+$max-narrow-screen-width:$max-narrow-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
+
+$max-wide-content-width:1280px;
+$max-wide-screen-width:$max-wide-content-width + ($margin_desktop * 2) + 16px;  // Add 16 for scrollbar
 
 
 // Track z-index layers used by elements affected by overlays

@@ -1,3 +1,7 @@
+//-------------------------------------------------------------------
+// Template for secondary pages site-wide
+//-------------------------------------------------------------------
+
 .secondary {
 }
 
@@ -24,16 +28,21 @@
 }
 
 .secondary__content-wrap {
-    @extend %container-narrow;
-    margin-top:10px;
+    margin-top:40px;
     margin-bottom:60px;
 
     @include breakpoint(desktop) {
-        margin-top:30px;
+        margin-top:60px;
         margin-bottom:100px;
     }
     @include breakpoint(desktop-xxl) {
-        margin-top:50px;
+        margin-top:70px;
         margin-bottom:120px;
     }
+}
+.secondary__content-wrap--standard {
+    @extend %container;
+}
+.secondary__content-wrap--wide {
+    @extend %container-wide;
 }

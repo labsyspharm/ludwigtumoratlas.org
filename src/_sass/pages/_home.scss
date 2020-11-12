@@ -4,3 +4,33 @@
 
 
 
+// Featured Data Cards ----------------------------------------------
+
+.featured-data {
+    margin-top:40px;
+    margin-bottom:40px;
+
+    @include breakpoint(tablet-v) {
+        margin-top:70px;
+        margin-bottom:70px;
+    }
+}
+.featured-data__heading {
+    @extend %heading-style-1;
+    color: $color_dark-blue;
+    margin:0 0 1em;
+}
+
+
+.featured-data__items {
+    margin:0 auto 10px;
+
+    @include breakpoint("min-width:600px") {
+        @include flex-grid(2);
+        max-width:620px;
+    }
+    @include breakpoint("min-width:880px") {
+        @include flex-grid(3);
+        max-width:none;
+    }
+}

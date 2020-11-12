@@ -1,14 +1,24 @@
 ---
-title: Tour of the Melanoma Dataset
-image: datasets/tour-melanoma-dataset.jpg
+title: In situ myeloid niches support antitumor T-Cells and enable PD-1 blockade via CD28 costimulation (manuscript submitted)
+
+abstract: In a collaboration with Dr. George Coukos at Ludwig Lausanne, we performed t-CyCIF on and to investigate PD-1/PD-L1 interaction in ovarian cancer samples. We found that the PD-1/PD-L1 interaction was mostly occurring betweenmyeloid cells and CD8+T-cells. However, as the patients were treated with the combination of PARP and PD-1 inhibitor, the most significant contributor to response to therapy was signature 3 positive tumor cells and their proximity to PD-1 positive exhausted CD8+T-cells.
+
+images: 
+  - path: datasets/tour-melanoma-dataset.jpg
+    caption_heading: This is an image caption heading
+    caption_body: This is some body copy for the caption
+  - path: datasets/figures-2018-elife-2.jpg
+    caption_heading: This is another image caption heading
+    caption_body: This is some body copy for the additional caption
 
 date: 2020-11-10
 
-minerva_link: https://google.com
-show_page_link: true 
----
+related_links:
+  - '[Related link one lorem ipsum](https://google.com){:target="_blank"}'
 
-# Tour of the Melanoma Dataset
+show_page_link: true
+---                                                                                                                                                                             
+# In situ myeloid niches support antitumor T-Cells and enable PD-1 blockade via CD28 costimulation (manuscript submitted)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu commodo velit. In egestas elementum lectus, ut dictum risus. Maecenas sagittis venenatis nisl non elementum. Ut ornare dapibus sapien, sed molestie dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra sollicitudin arcu, sit amet posuere odio. Pellentesque id lectus quis sem pellentesque pretium at nec ligula. In maximus sapien arcu, sed lacinia lacus iaculis at. Fusce id dapibus leo. Nunc sit amet ligula posuere ante vestibulum ullamcorper sit amet a lectus. Aliquam at ipsum ultrices risus viverra gravida ut vel metus. Vivamus finibus pellentesque metus. Phasellus tincidunt id arcu non condimentum.
 

@@ -39,7 +39,7 @@ section.hero {
 }
 
 .hero__text-container {
-    @extend %container-narrow;
+    @extend %container;
     padding:30px 0;
     width:100%;
 
