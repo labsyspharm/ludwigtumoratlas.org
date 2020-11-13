@@ -6,7 +6,7 @@ layout: secondary
     <div class="projects__inner">
         <h1 class="projects__heading">Projects</h1>
         <div class="projects__items">
-            {% assign sorted = site.projects | sort: 'order' %}
+            {% assign sorted = site.projects | sort: 'project_number' %}
             {% assign counter = 0 %}
             {% for project in sorted %}
 
@@ -18,5 +18,5 @@ layout: secondary
     </div>
 
     {{ content }}
-    
+
 </section>

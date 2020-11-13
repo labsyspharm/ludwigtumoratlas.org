@@ -1,0 +1,23 @@
+---
+layout: secondary
+---
+
+<section class="people">
+    <div class="people__inner">
+        <h1 class="people__heading">People</h1>
+        {% for siteDataLoc in site.data.locations %}
+            <div class="people__location">
+                <h2>{{ siteDataLoc.name }}</h2>
+                {% assign people = site.people | where: 'location', siteDataLoc.key %}
+                {% for person in people %}
+                    
+                    {% include person.html content=person %}
+
+                {% endfor %}
+            </div>
+        {% endfor %}
+    </div>
+
+    {{ content }}
+    
+</section>

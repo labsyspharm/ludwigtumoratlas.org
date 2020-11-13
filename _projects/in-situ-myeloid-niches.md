@@ -3,6 +3,8 @@ title: In situ myeloid niches support antitumor T-Cells and enable PD-1 blockade
 
 abstract: In a collaboration with Dr. George Coukos at Ludwig Lausanne, we performed t-CyCIF on and to investigate PD-1/PD-L1 interaction in ovarian cancer samples. We found that the PD-1/PD-L1 interaction was mostly occurring betweenmyeloid cells and CD8+T-cells. However, as the patients were treated with the combination of PARP and PD-1 inhibitor, the most significant contributor to response to therapy was signature 3 positive tumor cells and their proximity to PD-1 positive exhausted CD8+T-cells.
 
+project_number: 1
+
 images: 
   - path: datasets/tour-melanoma-dataset.jpg
     caption_heading: This is an image caption heading
@@ -10,8 +12,6 @@ images:
   - path: datasets/figures-2018-elife-2.jpg
     caption_heading: This is another image caption heading
     caption_body: This is some body copy for the additional caption
-
-order: 1
 
 related_links:
   - '[Related link one lorem ipsum](https://google.com){:target="_blank"}'

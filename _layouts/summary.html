@@ -18,3 +18,11 @@ layout: secondary
     {{ content }}
 
 </div>
+
+{%- if page.collection == 'projects' -%}
+
+    {% include pagination.html %}
+
+{%- endif -%}
+
+
