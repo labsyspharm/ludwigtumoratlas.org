@@ -1,10 +1,6 @@
 <div class="project-listing">
     <div class="project-listing__heading">Project {{ include.counter }}</div>
-    <h2 class="project-listing__title">
-        {%- if include.content.show_page_link -%}<a href="{{ include.content.url | relative_url }}">{%- endif -%}
-            {{ include.content.title }}
-        {%- if include.content.show_page_link -%}</a>{%- endif -%}        
-    </h2>
+    <h2 class="project-listing__title">{{ include.content.title }}</h2>
     {%- if include.content.abstract -%}
         <div class="project-listing__abstract">
             <div class="project-listing__secondary-heading">Abstract:</div>
@@ -38,10 +34,17 @@
         </div>
     {%- endif -%}
 
-    {%- if include.content.related_links -%}
+    {%- if include.content.related_links or include.content.show_page_link -%}
         <div class="project-listing__related-links">
             <div class="project-listing__secondary-heading">Related Links:</div>
             <ul class="project-listing__related-links-list">
+                {%- if include.content.show_page_link -%}
+                    <li class="project-listing__related-links-item">
+                        <a href="{{ include.content.url | relative_url }}">
+                            {{ include.content.summary_link_label }}
+                        </a>
+                    </li>
+                {%- endif -%}   
                 {%- for link in include.content.related_links -%}
                     <li class="project-listing__related-links-item">
                         {{ link | markdownify }}

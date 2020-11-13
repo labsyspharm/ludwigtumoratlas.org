@@ -8,7 +8,7 @@ images:
     caption_heading: This is an image caption heading
     caption_body: This is some body copy for the caption
 
-date: 2020-11-08
+order: 3
 
 related_links:
 ---

@@ -11,7 +11,7 @@ images:
     caption_heading: This is another image caption heading
     caption_body: This is some body copy for the additional caption
 
-date: 2020-11-10
+order: 1
 
 related_links:
   - '[Related link one lorem ipsum](https://google.com){:target="_blank"}'

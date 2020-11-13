@@ -41,6 +41,7 @@ defaults:
       layout: summary
       heading: Projects
       sub_heading: Project Summary
+      summary_link_label: Project Summary
       wide_container: true
 
 
