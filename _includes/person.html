@@ -4,6 +4,14 @@
     </div>
     <div class="person__info">
         <h3 class="person__name">{{ include.content.title }}</h3>
+        <ul class="person__position-list">
+            {% for position in include.content.positions %}
+                <li class="person__position-item">{{ position }}</li>
+            {% endfor %}
+        </ul>
+        <div class="person__bio">
+            {{ include.content.content | markdownify }}
+        </div>
     </div>
 
 </div>

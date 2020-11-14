@@ -20,7 +20,11 @@ show_page_link: true
 ---                                                                                                                                                                             
 # In situ myeloid niches support antitumor T-Cells and enable PD-1 blockade via CD28 costimulation (manuscript submitted)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu commodo velit. In egestas elementum lectus, ut dictum risus. Maecenas sagittis venenatis nisl non elementum. Ut ornare dapibus sapien, sed molestie dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra sollicitudin arcu, sit amet posuere odio. Pellentesque id lectus quis sem pellentesque pretium at nec ligula. In maximus sapien arcu, sed lacinia lacus iaculis at. Fusce id dapibus leo. Nunc sit amet ligula posuere ante vestibulum ullamcorper sit amet a lectus. Aliquam at ipsum ultrices risus viverra gravida ut vel metus. Vivamus finibus pellentesque metus. Phasellus tincidunt id arcu non condimentum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu commodo velit. In egestas elementum lectus, ut dictum risus. Maecenas sagittis venenatis nisl non elementum. Ut ornare dapibus sapien, sed molestie dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+{% include graphic.html content='multi-scale-imaging-of-t-cycif-specimens' %}
+
+Maecenas viverra sollicitudin arcu, sit amet posuere odio. Pellentesque id lectus quis sem pellentesque pretium at nec ligula. In maximus sapien arcu, sed lacinia lacus iaculis at. Fusce id dapibus leo. Nunc sit amet ligula posuere ante vestibulum ullamcorper sit amet a lectus. Aliquam at ipsum ultrices risus viverra gravida ut vel metus. Vivamus finibus pellentesque metus. Phasellus tincidunt id arcu non condimentum.
 
 ## Synopsis
 

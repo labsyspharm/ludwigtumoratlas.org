@@ -22,7 +22,11 @@ collections:
     output: true
   projects:
     output: true
+  publications: 
+    output: true
   people:
+    output: false
+  graphics:
     output: false
 
 defaults:
@@ -45,7 +49,15 @@ defaults:
       sub_heading: Project Summary
       summary_link_label: Project Summary
       wide_container: true
-
+  - scope:
+      path: ''
+      type: publications
+    values:
+      section_id: publications
+      layout: summary
+      heading: Publications
+      sub_heading: Publication Summary
+      wide_container: true
 
 sass:
   sass_dir: src/_sass

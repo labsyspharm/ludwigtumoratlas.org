@@ -1,0 +1,5 @@
+{% assign graphic = site.graphics[include.content] %}
+<figure>
+  <img src="{{site.url}}/assets/image.jpg" alt="my alt text"/>
+  <figcaption>{{ graphic.content }}</figcaption>
+</figure>
