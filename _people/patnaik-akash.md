@@ -1,5 +1,5 @@
 ---
-title: Akash Patnaik, MD, PhD
+name: Akash Patnaik, MD, PhD
 positions: 
   - Assistant Professor of Hematology/Oncology, Department of Medicine
 

@@ -43,7 +43,13 @@
         margin-top:0;
     }
 }
-
+.pub-listing__publication {
+    font-style: italic;
+}
+.pub-listing__publication-link {
+    font-style:normal;
+    color:$color_black;
+}
 .pub-listing__links {
     margin:1em 0 0;
     padding:0;

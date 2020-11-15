@@ -1,5 +1,5 @@
 ---
-title: Joan Brugge, PhD
+name: Joan Brugge, PhD
 positions: 
   - Louise Foote Pfeiffer Professor of Cell Biology 
   - Chair of the Department of Cell Biology at Harvard Medical School

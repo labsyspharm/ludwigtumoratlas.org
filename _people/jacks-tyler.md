@@ -1,5 +1,5 @@
 ---
-title: Tyler Jacks, PhD 
+name: Tyler Jacks, PhD 
 positions: 
   - David H. Koch Professor of Biology
   - Director of the Koch Institute for Integrative Cancer Research at MIT

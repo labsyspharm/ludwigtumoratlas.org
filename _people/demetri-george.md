@@ -1,5 +1,5 @@
 ---
-title: George Demetri, MD
+name: George Demetri, MD
 positions: 
   - Co-Director of the Harvard Ludwig Cancer Center
 

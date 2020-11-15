@@ -1,5 +1,5 @@
 ---
-title: George Coukos, MD, PhD
+name: George Coukos, MD, PhD
 positions: 
   - Swiss Cancer Center Lausanne and Professor at the University of Lausanne
   - Director of the Ludwig Center at Lausanne

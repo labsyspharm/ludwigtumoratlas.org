@@ -1,5 +1,5 @@
 ---
-title: Doug Hanahan, PhD
+name: Doug Hanahan, PhD
 positions: 
   - Director of the Swiss Institute for Experimental Cancer Research 
   - Co-director of the Swiss Cancer Center Leman
