@@ -11,7 +11,7 @@ layout: secondary
                 {% assign pubs = site.publications | where: 'group', siteDataGroup.key %}
                 {% for pub in pubs %}
                     
-                    {% include publication.html content=pub %}
+                    {% include pub-listing.html content=pub %}
 
                 {% endfor %}
             </div>

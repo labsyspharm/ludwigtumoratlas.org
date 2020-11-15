@@ -10,7 +10,7 @@
     {%- if include.content.graphics -%}
         <div class="project-listins__thumbs">
             {% assign imgCounter = 0 %}
-            {%- for graphic in include.content.graphics -%}
+            {%- for item in include.content.graphics -%}
 
                 {% assign imgCounter = imgCounter | plus: 1 %}
                 {% assign imgId = 'img' | append: include.counter | append: imgCounter %}
@@ -18,14 +18,14 @@
                 <div class="project-listing__thumb">
                     <a href="#{{ imgId }}" data-lity>
 
-                        {% include graphic-thumb.html content=graphic %}
+                        {% include graphic-thumb.html content=item %}
                         
                         <span class="project-listing__thumb-label">Click to Enlarge</span>
                     </a>
                     <div id="{{ imgId }}" class="lity-hide modal">
+                            
+                        {% include graphic.html content=item %}
                         
-                        {% include graphic.html content=graphic %}
-
                     </div>
                 </div>
                 

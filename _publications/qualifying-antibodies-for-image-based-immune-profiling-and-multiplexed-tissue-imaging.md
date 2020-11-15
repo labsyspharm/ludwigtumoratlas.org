@@ -4,6 +4,8 @@ contributors: 'Du, Z., Lin, J.-R., Rashid, R., Maliga, Z., Wang, S., Aster, J. C
 publication: Nature Protocols, 14(10), 2900–2930. 
 publication_link: https://doi.org/10.1038/s41596-019-0206-y
 
+image: publications/Ludwig_5-Farkkilla-et-al-2019-Nat-Comm.jpg
+
 group: collaborating
 
 date: 2020-11-11

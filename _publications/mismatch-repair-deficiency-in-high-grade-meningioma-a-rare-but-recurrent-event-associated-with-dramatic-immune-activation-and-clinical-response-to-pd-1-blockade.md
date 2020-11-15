@@ -4,14 +4,15 @@ contributors: 'Du, Z., Lin, J.-R., Rashid, R., Maliga, Z., Wang, S., Aster, J. C
 publication: JCO Precision Oncology, 2018.
 publication_link: https://doi.org/10.1200/PO.18.00190
 
-image: publications/
+image: publications/Ludwig_3-Dunn-et-al-2018-Meningioma.jpg
 
 group: collaborating
 
 date: 2020-11-10
 
-minerva_link: https://google.com
+minerva_link:
 rxiv_link: https://bing.com
+pdf_link: downloads/mismatch-repair-deficiency.pdf
 show_page_link: true
 ---
 

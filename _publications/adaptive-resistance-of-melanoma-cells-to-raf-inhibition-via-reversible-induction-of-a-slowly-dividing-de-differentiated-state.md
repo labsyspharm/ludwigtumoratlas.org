@@ -4,12 +4,15 @@ contributors: 'Fallahi-Sichani, M., Becker, V., Izar, B., Baker, G. J., Lin, J.-
 publication: Molecular Systems Biology, 13(1), 905.
 publication_link: https://doi.org/10.15252/msb.20166796
 
+image: publications/Ludwig_4-Fallahi-Sichani-et-al-2017-Melanoma.jpg
+
 group: harvard
 
 date: 2020-11-12
 
 minerva_link: https://google.com
 rxiv_link: https://bing.com
+pdf_link: downloads/adaptive-resistance-of-melanoma.pdf
 show_page_link: true
 ---
 

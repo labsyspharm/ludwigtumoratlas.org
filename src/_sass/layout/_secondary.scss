@@ -28,6 +28,7 @@
 }
 
 .secondary__content-wrap {
+    @extend %clearfix;
     margin-top:40px;
     margin-bottom:60px;
 
