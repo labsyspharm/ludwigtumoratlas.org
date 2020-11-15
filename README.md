@@ -10,7 +10,7 @@ The site (as currently stands) is comprised of 6 Collections:
 - **projects** - These provide the content for the *Projects* section of the website.
 - **publications** - These provide the content for the *Publications* section of the website. At a minimum, entries should contain front matter that can be used to populate the publication list on the Publications landing page.  They can also contain body content, which can then be displayed as a standalone summary page for the publication.
 - **people** - These entries provide the source content for the items in the *People* section of the website.  No standalone pages are build for these items, but body content is displayed within the People landing page list.
-- **graphics** - These entries are used whenever a graphic with captioning needs to be displayed.  Each item in the graphics collection has a title assigned, an image, and then body copy which can be marked up as needed, and rendered out within a `<figure>` / `<figcaption>` HTML structure.
+- **graphics** - These entries are used whenever a graphic with captioning needs to be displayed.  Each item in the graphics collection has a title assigned, an image, and then body copy which can be marked up as needed, and will then be rendered out within a `<figure>` / `<figcaption>` HTML structure.
 
 ## Image Processing
 
@@ -99,3 +99,55 @@ For any pages that render out body content (eg. project summary pages), a few no
     ```
     This will display the graphic -- with its associated title and caption information -- inline in the page on mobile, and will 'float' the content to the right on desktop displays.
 
+## Publishing Notes ##
+
+To make updates to the site, you simply need to push git updates to the GitHub repository on the *master* branch.  You may also run a local version of the site for review purposes by cloning the git repo, and installing Jekyll (per the specifications in the Gemfile).  This can be done by running the following in the root project directory:
+
+```
+bundle install
+```
+
+Once the required files are installed, you can spin up the dev server via:
+
+```
+bundle exec jekyll serve
+```
+
+The site will then be available at [localhost:4000](http://localhost:4000)
+
+## Deverloper Notes ##
+
+If you would like to make updates to the javascript bundle, you will also need to install the packages specified in the package.json file.  This can be done via:
+
+```
+npm install
+```
+...or, if using Yarn:
+
+```
+yarn install
+```
+Once installation is complete, you can start up the development workflow like so:
+
+```
+npm run dev
+```
+...or, if using Yarn:
+
+```
+yarn dev
+```
+
+The development workflow includes a webpack setup for packaging the javascript files in *src/js* and placing them into the *assets/js* directory for use by the jekyll site.  Updates will be re-bundled automatically while the dev script is running.
+
+When ready to generate a production build, ensure that the dev script has been stopped (CTRL+C) and then run the build script:
+
+```
+npm run build
+```
+...or, if using Yarn:
+
+```
+yarn build
+```
+⚠️Be sure to always run the build script before pushing updates to GitHub. This optimizes / minimizes the javascript bundle for production usage.
