@@ -11,6 +11,8 @@
     
     img {
         max-width:100%;
+        display:block;
+        border:1px solid $color_black;
     }
 
     @include breakpoint(tablet-v) {
