@@ -38,4 +38,12 @@
         text-transform:none;
         margin-bottom:.1em;
     }
+
+    figure {
+        @include breakpoint(desktop) {
+            max-width:41%;
+            float:right;
+            margin-left:50px;
+        }
+    }
 }

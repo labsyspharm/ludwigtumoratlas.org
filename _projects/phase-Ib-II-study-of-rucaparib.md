@@ -5,7 +5,7 @@ abstract: In a collaboration with Dr. Akash Patnaik at Ludwig Chicago, we have u
 
 project_number: 4
 
-images: 
+graphics: 
 
 related_links:
   - '[Related link one lorem ipsum](https://google.com)'

@@ -7,26 +7,25 @@
             {{ include.content.abstract | markdownify }}
         </div>
     {%- endif -%}
-    {%- if include.content.images -%}
+    {%- if include.content.graphics -%}
         <div class="project-listins__thumbs">
             {% assign imgCounter = 0 %}
-            {%- for image in include.content.images -%}
+            {%- for graphic in include.content.graphics -%}
 
                 {% assign imgCounter = imgCounter | plus: 1 %}
                 {% assign imgId = 'img' | append: include.counter | append: imgCounter %}
 
                 <div class="project-listing__thumb">
                     <a href="#{{ imgId }}" data-lity>
-                        <img src="{{ site.imgbaseurl }}{{ image.path }}?w=126&h=86&fit=crop" alt="{{ image.caption_heading }}">
+
+                        {% include graphic-thumb.html content=graphic %}
+                        
                         <span class="project-listing__thumb-label">Click to Enlarge</span>
                     </a>
-
                     <div id="{{ imgId }}" class="lity-hide modal">
-                        <img src="{{ site.imgbaseurl }}{{ image.path }}?w=800" alt="{{ image.caption_heading }}">
-                        <div class="modal__caption">
-                            <div class="modal__caption-heading">{{ image.caption_heading }}</div>
-                            {{ image.caption_body | markdownify }}
-                        </div>
+                        
+                        {% include graphic.html content=graphic %}
+
                     </div>
                 </div>
                 

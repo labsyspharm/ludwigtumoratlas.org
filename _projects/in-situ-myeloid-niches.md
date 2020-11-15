@@ -5,13 +5,10 @@ abstract: In a collaboration with Dr. George Coukos at Ludwig Lausanne, we perfo
 
 project_number: 1
 
-images: 
-  - path: datasets/tour-melanoma-dataset.jpg
-    caption_heading: This is an image caption heading
-    caption_body: This is some body copy for the caption
-  - path: datasets/figures-2018-elife-2.jpg
-    caption_heading: This is another image caption heading
-    caption_body: This is some body copy for the additional caption
+graphics: 
+  - 'project-sample-1'
+  - 'project-sample-2'
+
 
 related_links:
   - '[Related link one lorem ipsum](https://google.com){:target="_blank"}'

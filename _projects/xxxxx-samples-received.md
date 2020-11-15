@@ -5,8 +5,6 @@ abstract: In a collaboration with Dr. Doug Hanahan at Ludwig Lausanne, we are ex
 
 project_number: 2
 
-images: 
-
 related_links:
   - '[Related link one lorem ipsum](https://google.com)'
   - '[Related link two lorem ipsum](https://bing.com)'

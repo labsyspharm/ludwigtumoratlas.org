@@ -5,10 +5,8 @@ abstract: In a collaboration with Dr. Tyler Jacks at Ludwig MIT, we used t-CyCIF
 
 project_number: 3
 
-images: 
-  - path: datasets/tour-melanoma-dataset.jpg
-    caption_heading: This is an image caption heading
-    caption_body: This is some body copy for the caption
+graphics: 
+  - 'project-sample-1'
 
 related_links:
 

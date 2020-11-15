@@ -1,0 +1,4 @@
+{% assign graphicId = '/graphics/' | append: include.content %}
+{% assign graphic = site.graphics | where: 'id', graphicId | first %}
+
+<img src="{{ site.imgbaseurl }}{{ graphic.image }}?w=126&h=86&fit=crop" alt="{{ graphic.title }}">
