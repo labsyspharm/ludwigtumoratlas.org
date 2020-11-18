@@ -8,6 +8,7 @@ abstract: In a collaboration with Dr. Akash Patnaik at Ludwig Chicago, we have u
 project_number: 4
 
 graphics: 
+  - project-4-akash-ap01-ki67-ar-cd14
 
 related_links:
 

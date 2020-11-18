@@ -20,8 +20,8 @@ layout: default
     <div class="featured-data__inner container-narrow">
         <h2 class="featured-data__heading">Featured Data</h2>
         <div class="featured-data__items">
-            {% assign sorted = site.datasets | sort: 'date' | reverse %}
-            {% for dataset in sorted limit:3 %}
+            {% assign sorted = site.datasets | where: 'featured', true | sort: 'date' | reverse %}
+            {% for dataset in sorted %}
 
                 {% include data-card.html content=dataset %}
                 

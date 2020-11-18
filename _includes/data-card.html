@@ -12,6 +12,13 @@
                     </a>
                 </li>
             {%- endif -%}
+            {%- if include.content.info_link -%}
+                <li class="data-card__link">
+                    <a href="{{ include.content.info_link }}">
+                        <img src="{{ '/assets/img/icon-info.svg' | relative_url }}" alt="Info">
+                    </a>
+                </li>
+            {%- endif -%}
             {%- if include.content.show_page_link -%}
                 <li class="data-card__link">
                     <a href="{{ include.content.url | relative_url }}">

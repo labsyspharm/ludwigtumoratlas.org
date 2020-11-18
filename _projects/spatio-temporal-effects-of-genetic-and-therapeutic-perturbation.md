@@ -8,6 +8,7 @@ abstract: In a collaboration with Dr. Tyler Jacks at Ludwig MIT, we used t-CyCIF
 project_number: 2
 
 graphics: 
+  - project-2-2020-01-17-humanlung
 
 minerva_link: https://www.cycif.org/data/gaglia-mit-ludwig-2020/osd-gemm-lung.html
 

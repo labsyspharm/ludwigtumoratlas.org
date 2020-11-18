@@ -38,8 +38,10 @@ Below is information about the front matter options for each of the site's colle
 - **title** - The title of the dataset entry
 - **image** - Path to the image used for the dataset card.  Images should be placed in the *images/datasets* directory for organizational purposes, and the path should be relative to the root *images* directory of the site (eg. 'datasets/my-image.jpg').  Sizing will be automatically applied.
 - **date** - Date representing when the dataset was posted.  Can be adjusted as needed to move the entry higher or lower in its display order (newer items are listed first in the dataset lists)
+- **featured** (boolean) - If *true*, will display this entry on the homepage
 - **minerva_link** - Link to the associated Minerva page
-- **show_page_link** (boolean)- If *true*, will display a link to this entry's standalone summary page whereever a list of dataset entries is shown (eg homepage, Data landing page).  Content within the body of the entry will be displayed on this summary page.
+- **info_link** - Link to the associated (off-site) info page
+- **show_page_link** (boolean) - If *true*, will display a link to this entry's standalone summary page whereever a list of dataset entries is shown (eg homepage, Data landing page).  Content within the body of the entry will be displayed on this summary page.
 
 ### projects ###
 - **title** - The title of the project entry

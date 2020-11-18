@@ -4,6 +4,9 @@ image: datasets/combination-therapy-in-ovarian-cancer.jpg
 
 date: 2020-11-17
 
-minerva_link: https://google.com
+featured: true
+
+minerva_link:
+info_link: 
 show_page_link: false
 ---
