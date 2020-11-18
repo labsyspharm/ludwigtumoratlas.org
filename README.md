@@ -20,7 +20,7 @@ The site makes use of the [imgix](https://www.imgix.com/) image processing servi
 
 The site currently makes use of three data files (contained in the *_data* directory), which can be edited as needed as the site grows over time:
 - **menus.yml** - This contains the structure for the main site navigation. Note the use of the *section_id* value.  This is used to trigger menu highlighting for sub-pages within a given section.
-- **people.yml** - The *people* entries are grouped on the People landing page according to location.  The locations are specified in the ***people.yml*** file, and the *key* value is assigned to the entries in the *people* collection to form their location associations.
+- **people.yml** - The *people* entries are organized on the People landing page according to group.  The groups are specified in the ***people.yml*** file, and the *key* value is assigned to the entries in the *people* collection to form their group associations.
 - **publications.yml** - The *publications* entries are grouped by their associated *groups* on the Publications landing page. The groups are specified in the ***publications.yml*** file, and the *key* value is assigned to the entries in the *publications* collection to form their group associations.
 
 ## Collection Details
@@ -74,15 +74,17 @@ Below is information about the front matter options for each of the site's colle
 
 ### people ###
 - **name** - The name of the individual.
+
+    ⚠️**NOTE:** File names in the People collection should be structured like so:
+    ```
+    lastname-firstname.md
+    ```
+    This will ensure that individuals are listed in alphabetical order, per last name ordering.
+
 - **positions** - A list of positions the individual holds
 - **photo** - Path to the image used for the individual on the People landing page.  Images should be placed in the *images/people* directory for organizational purposes, and the path should be relative to the root *images* directory of the site (eg. 'people/my-image.jpg').  Sizing will be automatically applied.
-- **location** - *key* value for the location where this individual works (as defined within the *_data/people.yml* file).  Individuals will be displayed within their associated location group on the People landing page.
-
-⚠️**NOTE:** File names in the People collection should be structured like so:
-```
-lastname-firstname.md
-```
-This will ensure that individuals are listed in alphabetical order, per last name ordering.
+- **group** - *key* value for the individual's group (as defined within the *_data/people.yml* file).  Individuals will be displayed within their associated group on the People landing page.
+- **weight** - The sort order on the People page can also be modified via the *weight* property.  Smaller values will appear higher on the list.
 
 ### graphics ###
 - **title** - The title of the graphic (will be displayed below the image)

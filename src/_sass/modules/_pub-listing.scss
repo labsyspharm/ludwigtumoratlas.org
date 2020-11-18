@@ -1,13 +1,21 @@
 .pub-listing {
-    margin-bottom:3.4em;
+    margin-bottom:2em;
 
     @include breakpoint(tablet-v) {
         display:flex;
         justify-content: space-between;
+        margin-bottom:3.4em;
+    }
+}
+// MODIFIER - No image available
+.pub-listing--no-img {
+    @include breakpoint(tablet-v) {
+        display:block;
     }
 }
 .pub-listing__photo {
     transition:flex-basis 0.2s $ease-out-quad;
+    margin-bottom:.75em;
     
     img {
         max-width:100%;

@@ -1,18 +1,18 @@
 ---
-title: XXXXX (samples received)
+title: Profiling resistance in BRAF/MEK therapy in melanoma GEMM specimens
 
-abstract: In a collaboration with Dr. Doug Hanahan at Ludwig Lausanne, we are exploring for using t-CyCIF to better understand determinants of therapeutic response in melanoma. We have recently received GEMM specimens for profiling with t-CyCIF and expect to receive human samples as well. Resistance to BRAF/MEK therapy in the GEMM model is driven by a specific modification in a transmembrane receptor that may be amendable to analysis using network analysis tools developed in the Laboratory of Systems Pharmacology. 
+status: Specimens received
 
-project_number: 2
+abstract: In a collaboration with Dr. Doug Hanahan at Ludwig Lausanne, we are exploring for using t-CyCIF to better understand determinants of therapeutic response in melanoma. We have recently received genetically-engineered mouse model (GEMM) specimens for profiling with t-CyCIF and expect to receive human samples as well. Resistance to BRAF/MEK therapy in the GEMM model is driven by a specific modification in a transmembrane receptor that may be amendable to analysis using network analysis tools developed in the Laboratory of Systems Pharmacology.  
+
+project_number: 3
 
 related_links:
-  - '[Related link one lorem ipsum](https://google.com)'
-  - '[Related link two lorem ipsum](https://bing.com)'
 
-show_page_link: true
+show_page_link: false
 ---
 
-# XXXXX (samples received)
+# Profiling resistance in BRAF/MEK therapy in melanoma GEMM specimens
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu commodo velit. In egestas elementum lectus, ut dictum risus. Maecenas sagittis venenatis nisl non elementum. Ut ornare dapibus sapien, sed molestie dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas viverra sollicitudin arcu, sit amet posuere odio. Pellentesque id lectus quis sem pellentesque pretium at nec ligula. In maximus sapien arcu, sed lacinia lacus iaculis at. Fusce id dapibus leo. Nunc sit amet ligula posuere ante vestibulum ullamcorper sit amet a lectus. Aliquam at ipsum ultrices risus viverra gravida ut vel metus. Vivamus finibus pellentesque metus. Phasellus tincidunt id arcu non condimentum.
 

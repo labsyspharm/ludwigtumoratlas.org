@@ -1,6 +1,12 @@
 <div class="project-listing">
     <div class="project-listing__heading">Project {{ include.content.project_number }}</div>
     <h2 class="project-listing__title">{{ include.content.title }}</h2>
+    {%- if include.content.status -%}
+        <div class="project-listing__status">
+            <div class="project-listing__secondary-heading">Status:</div>
+            {{ include.content.status | markdownify }}
+        </div>
+    {%- endif -%}
     {%- if include.content.abstract -%}
         <div class="project-listing__abstract">
             <div class="project-listing__secondary-heading">Abstract:</div>
