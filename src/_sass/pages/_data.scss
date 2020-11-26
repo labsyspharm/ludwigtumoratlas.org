@@ -19,11 +19,12 @@
 
 
 .datasets__items {
-    margin:30px auto;
+    margin:30px auto 60px;
 
     @include breakpoint("min-width:600px") {
         @include flex-grid(2);
         max-width:620px;
+        margin:30px auto;
     }
     @include breakpoint("min-width:880px") {
         @include flex-grid(3);
