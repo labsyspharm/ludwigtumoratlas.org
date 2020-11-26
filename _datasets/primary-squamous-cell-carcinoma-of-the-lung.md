@@ -1,5 +1,5 @@
 ---
-title: Figures in the 2018 eLife Publication
+title: Primary Squamous Cell Carcinoma of the Lung
 image: datasets/primary-squamous-cell-carcinoma-of-the-lung.jpg
 
 date: 2020-11-09
