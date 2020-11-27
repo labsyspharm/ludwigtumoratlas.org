@@ -21,5 +21,7 @@ thead th {
 
 // Use an additional wrapper for our tables to allow for horizontal scrolling
 .table-wrapper {
-    overflow-x: scroll;
+    @include breakpoint("max-width:1439px") {
+        overflow-x: scroll;
+    }
 }
