@@ -53,7 +53,7 @@ Below is information about the front matter options for each of the site's colle
     - 'project-graphic-1'
     - 'project-graphic-2'
     ``` 
-    The graphics' images will be displayed in thumbnail form on the Projects landing page, and clicking them will open a modal window where the full-sized image is shown, along with any captioning information specified within the graphics' entries.
+    The graphics' images will be displayed in thumbnail form on the Projects landing page, and clicking them will open a modal window where the full-sized image is shown, along with any captioning information specified within the graphics' entries. Note that if a custom crop is desired for the thumbnail image, it can be provided via a `thumb` front matter value in the *graphics* entry.
 - **related_links** - A list of links related to this entry.  Links should be specified in markdown notation.  Note that Kramdown markup is respected here, so opening links in a new tab can be done like so (note the *target* specification):
     ```
     related_links:

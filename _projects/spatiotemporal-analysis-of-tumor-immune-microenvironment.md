@@ -8,7 +8,7 @@ abstract: Over the past decade, there has been a resurgent interest in cancer im
 project_number: 4
 
 graphics: 
-  - project-4-akash-ap01-ki67-ar-cd14
+  - project-4-spatiotemporal-analysis-of-tumor
 
 related_links:
 
