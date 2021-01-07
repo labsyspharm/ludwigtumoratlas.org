@@ -1,5 +1,5 @@
 {% if page.collection == 'projects' %}
-    {% assign sorted = site.projects | sort: 'project_number' %}
+    {% assign sorted = site.projects | where: 'show_page_link', true | 'sort: 'project_number' %}
 {% endif %}
 {% assign found = false %}
 {% for item in sorted %}
