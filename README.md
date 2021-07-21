@@ -119,7 +119,7 @@ bundle exec jekyll serve
 
 The site will then be available at [localhost:4000](http://localhost:4000)
 
-## Deverloper Notes ##
+## Developer Notes ##
 
 If you would like to make updates to the javascript bundle, you will also need to install the packages specified in the package.json file.  This can be done via:
 
