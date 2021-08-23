@@ -2,8 +2,9 @@
 name: Tyler Jacks, PhD 
 positions: 
   - David H. Koch Professor of Biology
-  - Director of the Koch Institute for Integrative Cancer Research at MIT
-  - Director of the Ludwig Center at MIT
+  - Founding Director of the Koch Institute for Integrative Cancer Research at MIT
+  - Co-Director of the Ludwig Center at MIT
+  - President of Break Through Cancer
 
 photo: people/jacks-tyler.jpg
 
