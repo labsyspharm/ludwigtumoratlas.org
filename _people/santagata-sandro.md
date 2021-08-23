@@ -2,7 +2,7 @@
 name: Sandro Santagata, MD, PhD
 positions: 
   - Neuropathologist in the Department of Pathology at Brigham and Women’s Hospital
-  - Assistant Professor in Pathology, Harvard Medical School
+  - Associate Professor in Pathology at Harvard Medical School
   - Principal Investigator of the Ludwig Tumor Atlas Project
 
 photo: people/santagata-sandro.jpg
