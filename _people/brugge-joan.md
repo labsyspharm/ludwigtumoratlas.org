@@ -1,7 +1,7 @@
 ---
 name: Joan Brugge, PhD
 positions: 
-  - Louise Foote Pfeiffer Professor of Cell Biology 
+  - Louise Foote Pfeiffer Professor of Cell Biology at Harvard Medical School
   - Director of the Ludwig Center at Harvard 
 
 photo: people/brugge-joan.jpg
