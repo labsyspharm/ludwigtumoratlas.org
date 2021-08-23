@@ -1,8 +1,9 @@
 ---
 name: Anniina Färkkilä, MD, PhD
 positions: 
-  - Principle Investigator at the Research Program for Systems Oncology
-
+  - Docent in Translational Gynecologic Oncology
+  - Principle Investigator at the Academy of Finland Clinical Research Fellow
+  - Specialist in Obstetrics and Gynecology
 photo: people/farkkila-anniina.jpg
 
 group: collaborators
