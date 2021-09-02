@@ -30,23 +30,54 @@
 }
 
 // Branding ---------------------------------------------------------
+
 .site-header__branding {
-    transition:width 0.2s $ease-out-quad, 
-        margin 0.2s $ease-out-quad;
+    background-size:contain;
+    background-repeat: no-repeat;
+    transition:width 0.2s $ease-out-quad, height 0.2s $ease-out-quad, margin 0.2s $ease-out-quad;
 }
 
-
-.site-header__branding-link {
+// MODIFIER - Identify primary-level branding
+.site-header__branding--primary {
+    @include font-size(22px);
+    margin-top:22px;
     display:block;
+    @extend %heading-style-1;
+    font-weight:bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $color_dark-blue;
+    transition:padding 0.2s $ease-out-quad, color 0.2s $ease-out-quad;
+
+    &:hover {
+        color:$color_blue;
+    }
+
+    @include breakpoint(mobile-h) {
+        @include font-size(24px);
+        margin-top:20px;
+    }
+    @include breakpoint(desktop) {
+        margin-top:34px;
+        margin-bottom:4px;
+    }
+    @include breakpoint(desktop-xxl) {
+        @include font-size(42px);
+        margin-top:80px;
+        margin-bottom:6px;
+    }
+}
+// MODIFIER - Indentify secondary-level branding
+.site-header__branding--secondary {
     width:65px;
     height:65px;
     margin-top:5px;
     text-indent:-9999px;
-    background:url('../img/logo-ludwig.svg') left center no-repeat;
-    background-size:contain;
-    transition:width 0.2s $ease-out-quad, height 0.2s $ease-out-quad;
+    background-image:url('../img/logo-ludwig.svg');
+    display:none;
 
     @include breakpoint(desktop) {
+        display:block;
         width:105px;
         height:105px;
         margin-top:15px;
@@ -57,6 +88,14 @@
         margin-top:45px;
     }
 }
+// MODIFIER - Flag for mobile-specific branding elements
+.site-header__branding--mobile {
+    @include breakpoint(desktop) {
+        display:none;
+    }
+}
+
+
 
 // ------------------------------------------------------------------
 // Mobile nav men (top level items) / Hamburger menu

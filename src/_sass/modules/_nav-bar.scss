@@ -17,23 +17,6 @@
     }
 }
 
-.nav-bar__heading {
-    @extend %heading-style-1;
-    font-weight:bold;
-    text-transform: uppercase;
-    color: $color_dark-blue;
-    padding:34px 0 4px;
-    transition:padding 0.2s $ease-out-quad;
-
-    @include breakpoint(desktop) {
-        @include font-size(24px);
-    }
-    @include breakpoint(desktop-xxl) {
-        @include font-size(42px);
-        padding:80px 0 6px;
-    }
-}
-
 .nav-bar__list {
     margin:0;
     padding:0;
@@ -321,6 +304,18 @@ li.nav-bar__item {
             padding-bottom:7px;
         }
     }
+}
+.nav-bar-mobile__branding {
+    width:120px;
+
+    img {
+        max-width:100%;
+    }
+}
+.nav-bar-mobile__branding-wrap {
+    margin:70px auto;
+    display:flex;
+    justify-content: center;
 }
 
 //-------------------------------------------------------------------

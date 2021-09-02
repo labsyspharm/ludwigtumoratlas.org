@@ -2,14 +2,14 @@
 // NAV STYLES
 //-------------------------------------------------------------------
 
-.roboto-light {
+.barlow-light {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 %nav-item-style-1 {
     // Main nav, desktop.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     @include font-size(18px);
@@ -20,7 +20,7 @@
 }
 %nav-item-style-2 {
     // Main nav, mobile.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     @include font-size(20px);
@@ -36,7 +36,7 @@
 
 %heading-style-1 {
     // H1 heading treatment
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     text-transform: uppercase;
@@ -52,7 +52,7 @@
 
 %heading-style-2 {
     // H2 heading treatment
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     text-transform:uppercase;
@@ -66,7 +66,7 @@
 }
 
 %heading-style-3 { 
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     @include font-size(18px);
@@ -80,7 +80,7 @@
 
 %heading-style-4 {      // CCSP 20 BOLD / 28
     // Section title text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     @include font-size(16px);
@@ -96,7 +96,7 @@
 
 %heading-style-callout { 
     // Hero overlay text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     line-height:1.42;
@@ -116,7 +116,7 @@
 
 %heading-style-3 {      // CCSP 18 BOLD / 28
     // About caption title text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     @include font-size(18px);
@@ -129,7 +129,7 @@
 }
 %heading-style-4 {      // CCSP 22 BOLD / 28
     // People chip name.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     @include font-size(22px);
@@ -142,7 +142,7 @@
 }
 %heading-style-5 {      // CCSP 20 BOLD / 28
     // Section title text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     @include font-size(20px);
@@ -155,7 +155,7 @@
 }
 %heading-style-6 {      // CRS 18 BOLD CAPS // 200226
     // Page subnav section name text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     @include font-size(16px);
@@ -169,7 +169,7 @@
 }
 %heading-style-7 {      // CRS 22 REG // 200227
     // Research > Overview "Explore More" text
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     @include font-size(20px);
@@ -182,7 +182,7 @@
 }
 %heading-style-8 {      // CRS 19 BOLD // 200227
     // Research > Publications pub title text
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     @include font-size(19px);
@@ -200,7 +200,7 @@
 
 %text-style-1 { 
     // Footer credits.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -219,7 +219,7 @@
 
 %text-style-2 {
     // Default body.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -234,7 +234,7 @@
 
 %text-style-3 {
     // Footer (lower section)
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -253,7 +253,7 @@
 /*
 %text-style-4 {         // CCSP 18 REG / 28
     // Section intro blurb text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -267,7 +267,7 @@
 }
 %text-style-5 {         // CCSP 20 REG / 28
     // List Item text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -282,7 +282,7 @@
 }
 %text-style-6 {         // 16 REG
     // Footer text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -297,7 +297,7 @@
 }
 %text-style-7 {         // 14 REG
     // WYSIWYG caption text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -318,7 +318,7 @@
 
 %button-style-1 {       // 18 REG CAPS
     // Rounded rectangle button.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:400;
     font-style:normal;
     font-stretch:normal;
@@ -336,7 +336,7 @@
 %link-style-1 {         // 30 BOLD
     // Linked text followed by arrow.
     // Section intro blurb text.
-    font-family:'Roboto', sans-serif;
+    font-family:'Barlow', sans-serif;
     font-weight:700;
     font-style:normal;
     font-stretch:normal;
