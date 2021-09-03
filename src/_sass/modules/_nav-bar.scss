@@ -94,7 +94,7 @@
     letter-spacing:.037em;
     
     &.text-larger {
-        @include font-size(14px);
+        @include font-size(15px);
     }
     &:hover {
         color:$color_blue;
@@ -102,7 +102,7 @@
 }
 .util-nav-bar .text-larger .nav-bar__link,
 .text-larger .util-nav-bar__link {
-    @include font-size(14px);
+    @include font-size(15px);
 }
 .nav-bar__item--no-link .util-nav-bar__link {
     cursor:default;
@@ -163,7 +163,7 @@ li.nav-bar__item {
 .nav-bar__panel-inner {         // Subnav panel.
     @extend %nav-item-style-1;
     text-transform:uppercase;
-    @include font-size(12px);
+    @include font-size(13px);
 
     & a {
         color:$color_dark-blue; 
@@ -175,10 +175,10 @@ li.nav-bar__item {
 
 
     @include breakpoint(desktop) {
-        @include font-size(14px);
+        @include font-size(15px);
     }
     @include breakpoint(desktop-l) {
-        @include font-size(16px);
+        @include font-size(17px);
     }
 }
 /*

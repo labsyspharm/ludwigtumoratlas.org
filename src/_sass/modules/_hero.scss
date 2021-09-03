@@ -76,7 +76,7 @@ section.hero {
         }
 
         &:after {
-            @include font-size(24px);
+            @include font-size(25px);
             color:$color_white;
             left:5px;
         }
