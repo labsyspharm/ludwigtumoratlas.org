@@ -1,8 +1,8 @@
 ---
 name: George Coukos, MD, PhD
-positions: 
-  - Swiss Cancer Center Lausanne and Professor at the University of Lausanne
+positions:
   - Director of the Ludwig Branch at Lausanne
+  - Swiss Cancer Center Lausanne and Professor at the University of Lausanne
 
 photo: people/coukos-george.jpg
 

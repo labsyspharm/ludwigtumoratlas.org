@@ -1,9 +1,9 @@
 ---
 name: George Demetri, MD
-positions: 
+positions:
+  - Co-Director of the Ludwig Center at Harvard
   - Senior Vice President for Experimental Therapeutics and Director, Sarcoma Center Dana-Farber Cancer Institute
   - Professor of Medicine at Harvard Medical School
-  - Co-Director of the Ludwig Center at Harvard
 
 photo: people/demetri-george.jpg
 

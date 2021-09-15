@@ -1,9 +1,9 @@
 ---
 name: Sandro Santagata, MD, PhD
-positions: 
+positions:
+  - Principal Investigator of the Ludwig Tumor Atlas Project
   - Neuropathologist in the Department of Pathology at Brigham and Women’s Hospital
   - Associate Professor in Pathology at Harvard Medical School
-  - Principal Investigator of the Ludwig Tumor Atlas Project
 
 photo: people/santagata-sandro.jpg
 

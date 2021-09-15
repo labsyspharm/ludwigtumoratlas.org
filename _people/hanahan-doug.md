@@ -1,9 +1,9 @@
 ---
 name: Douglas Hanahan, PhD
-positions: 
+positions:
+  - Distinguished Scholar at the Ludwig Branch at Lausanne
   - Professor of Molecular Oncology, and Former Director of the Swiss Institute for Experimental Cancer Research
   - Member of the Swiss Cancer Center Leman
-  - Distinguished Scholar at the Ludwig Branch at Lausanne
 
 photo: people/hanahan-doug.jpg
 
