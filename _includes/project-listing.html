@@ -1,16 +1,16 @@
 <div class="project-listing">
     <div class="project-listing__heading">Project {{ include.content.project_number }}</div>
     <h2 class="project-listing__title">{{ include.content.title }}</h2>
-    {%- if include.content.status -%}
-        <div class="project-listing__status">
-            <div class="project-listing__secondary-heading">Status:</div>
-            {{ include.content.status | markdownify }}
-        </div>
-    {%- endif -%}
     {%- if include.content.abstract -%}
         <div class="project-listing__abstract">
-            <div class="project-listing__secondary-heading">Abstract:</div>
+            <div class="project-listing__secondary-heading">About:</div>
             {{ include.content.abstract | markdownify }}
+        </div>
+    {%- endif -%}
+    {%- if include.content.status -%}
+        <div class="project-listing__status">
+            <div class="project-listing__secondary-heading">Manuscripts:</div>
+            {{ include.content.status | markdownify }}
         </div>
     {%- endif -%}
     {%- if include.content.graphics -%}
@@ -25,16 +25,16 @@
                     <a href="#{{ imgId }}" data-lity>
 
                         {% include graphic-thumb.html content=item %}
-                        
+
                         <span class="project-listing__thumb-label">Click to Enlarge</span>
                     </a>
                     <div id="{{ imgId }}" class="lity-hide modal">
-                            
+
                         {% include graphic.html content=item %}
-                        
+
                     </div>
                 </div>
-                
+
             {%- endfor -%}
         </div>
     {%- endif -%}
@@ -49,7 +49,7 @@
                             {{ include.content.summary_link_label }}
                         </a>
                     </li>
-                {%- endif -%}   
+                {%- endif -%}
                 {%- for link in include.content.related_links -%}
                     <li class="project-listing__related-links-item">
                         {{ link | markdownify }}
