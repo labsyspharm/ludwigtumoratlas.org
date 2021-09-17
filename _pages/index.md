@@ -6,4 +6,4 @@ section_id: home
 layout: home
 ---
 
-Through a collaboration that spans Ludwig Centers in multiple countries, we are studying the molecular basis of intrinsic and acquired resistance to anti-cancer drugs and developing new approaches to precision medicine aimed at overcoming resistance and improving patient outcomes.
+Through a collaboration spanning Ludwig Cancer Centers and Branches in multiple countries, we are studying how interactions among tumor and immune cells regulate the initiation and development of cancer and how individual therapy can be optimized for individual patients.
