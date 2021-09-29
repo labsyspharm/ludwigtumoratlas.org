@@ -17,7 +17,7 @@ show_page_link: true
 
 Research teams based in the Harvard Ludwig Center, the home of the Ludwig Tumor Atlas, are also active in the development and application of spatial profiling methods. These Harvard-based projects focus primarily on understanding the origins of innate, adaptive and acquired resistance to therapy, the focus of the Harvard Ludwig Center and primary barrier to more effective treatment of patients with targeted drugs and immunotherapies.
 
-People
+<strong>People</strong>
 
 
 Elizabeth Mittendorf, MD, PhD is the Robert and Karen Hale Distinguished Chair in Surgical Oncology at the Brigham and Women’s Hospital and Director of its Research in Breast Surgery and Breast Immuno-Oncology program at the Dana-Farber/Brigham and Women’s Cancer Center. Her research focuses on clinical and laboratory study of breast cancer therapy with a focus on clinical trials of immunotherapy.   
