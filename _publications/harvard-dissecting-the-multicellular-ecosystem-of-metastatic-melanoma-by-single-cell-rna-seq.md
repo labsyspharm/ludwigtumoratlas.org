@@ -10,8 +10,8 @@ group: harvard
 
 date: 2016-01-01
 
-minerva_link: 
-rxiv_link: 
-pdf_link: 
+minerva_link:
+rxiv_link:
+pdf_link:
 show_page_link: false
 ---
