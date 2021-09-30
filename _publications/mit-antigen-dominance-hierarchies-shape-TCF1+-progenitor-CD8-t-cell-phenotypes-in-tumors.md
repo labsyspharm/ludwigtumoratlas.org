@@ -4,7 +4,7 @@ contributors: 'Burger, Megan and Cruz, Amanda M. and Crossland, Grace E. and Gag
 publication: Cell, in press
 publication_link: http://dx.doi.org/10.2139/ssrn.3770111
 
-image:
+image: publications/mit-antigen-dominance-hierarchies-shape-TCF1-progenitor-CD8-t-cell-phenotypes-in-tumors.jpg
 
 group: mit
 
