@@ -1,7 +1,7 @@
 ---
 title: 'MCMICRO: A scalable, modular image-processing pipeline for multiplexed tissue imaging.'
 contributors:
-publication: 'Denis Schapiro, Artem Sokolov, Clarence Yapp, Jeremy L. Muhlich, Joshua Hess, Jia-Ren Lin, Yu-An Chen, Maulik K. Nariya, Gregory J. Baker, Juha Ruokonen, Zoltan Maliga, Connor A. Jacobson, Samouil L. Farhi, Domenic Abbondanza, Eliot T. McKinley, Courtney Betts, Aviv Regev, Robert J. Coffey, Lisa M. Coussens, Sandro Santagata, Peter K. Sorger.'
+publication: 'Schapiro, D., Sokolov, A., Yapp, C., Muhlich, J.L., Hess, J., Lin, J-R., Chen, Y-A., Nariya, M.K., Baker, G.J., Ruokonen, J., Maliga, Z., Jacobson, C.A., Farhi, S.L., Abbondanza, D., McKinley, E.T., Betts, C., Regev, A., Coffey, R.J., Coussens, L.M., Santagata, S., & Sorger, P.K.'
 
 publication_link: 'Manuscript submitted'
 
