@@ -7,6 +7,8 @@ status: Duraiswamy, Turrini, Minasyan and Coukos et al. (2021). Myeloid Antigen-
 
 project_number: 1
 
+group: lausanne
+
 graphics:
 
 related_links:

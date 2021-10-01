@@ -7,6 +7,8 @@ status:
 
 project_number: 3
 
+group: mit
+
 graphics:
 
 minerva_link:
