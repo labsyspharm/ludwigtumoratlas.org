@@ -1,7 +1,7 @@
 ---
 title: 'PARP and PI3K inhibitor combination therapy eradicates c-MYC-driven murine prostate cancers via cGAS/STING pathway activation within tumor-associated macrophages.'
 contributors: 'Dutta Gupta, P., Chaudagar, K., Lin, J.-R., Sharma-Saha, S., Bynoe, K., Leung, K., Shafran, J., Helmi, H., Maillat, L., Heiss, B., Sorger, P.K., Krishnan, Y., Stadler, W.M., & Patnaik, A.'
-publication: Submitted
+publication: Manuscript submitted
 publication_link:
 
 image:
