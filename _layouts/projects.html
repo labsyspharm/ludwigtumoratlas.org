@@ -5,16 +5,19 @@ layout: secondary
 <section class="projects">
     <div class="projects__inner">
         <h1 class="projects__heading">{{ page.title }}</h1>
-        <div class="projects__items">
-            {% assign sorted = site.projects | sort: 'project_number' %}
-            {% assign counter = 0 %}
-            {% for project in sorted %}
 
-                {% assign counter = counter | plus: 1 %}
-                {% include project-listing.html content=project counter=counter %}
-                
-            {% endfor %}
-        </div>
+        {% for siteDataGroup in site.data.projects.groups %}
+            <div class="projects__location">
+                <h2 class="projects__location-name">{{ siteDataGroup.name }}</h2>
+                {% assign projects = site.projects | where: 'group', siteDataGroup.key | sort: 'title' %}
+                {% for project in projects %}
+                    
+                    {% include project-listing.html content=project %}
+
+                {% endfor %}
+            </div>
+        {% endfor %}
+
     </div>
 
     {{ content }}

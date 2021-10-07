@@ -8,6 +8,8 @@ status:
 
 project_number: 2
 
+group: lausanne
+
 related_links:
 
 show_page_link: false

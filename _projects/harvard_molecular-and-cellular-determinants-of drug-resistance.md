@@ -7,6 +7,8 @@ status:
 
 project_number: 5
 
+group: harvard
+
 graphics:
 
 related_links:

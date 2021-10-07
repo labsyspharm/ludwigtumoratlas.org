@@ -7,6 +7,8 @@ status: Gupta, Chaudagar, Lin and Patnaik et al. (2021). PARP and PI3K inhibitor
 
 project_number: 4
 
+group: chicago
+
 graphics:
 
 related_links:
