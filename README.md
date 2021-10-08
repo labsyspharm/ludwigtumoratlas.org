@@ -102,13 +102,13 @@ For any pages that render out body content (eg. project summary pages), a few no
     {% include graphic.html content='my-graphic-entry' %}
     ```
     This will display the graphic -- with its associated title and caption information -- inline in the page on mobile, and will 'float' the content to the right on desktop displays.
-- **Projects Page CTA** - The Projects page has an optional call-to-action (CTA) button that can be specified in the page's front matter using:
+- **Page CTA** - The People, Projects, Data, and Publications pages have an optional call-to-action (CTA) button that can be specified in the page's front matter using:
     ```
     cta: [Button label name]
     cta_link: [Button URL] 
     cta_icon: [Icon ID (optional)]
     ```
-    If values are specified, a CTA button will be displayed on the Projects page directly below the title.  *Do not include brackets in the cta values.*
+    If values are specified, a CTA button will be displayed on the associated page directly below the title.  *Do not include brackets in the cta values.*
 
     ⚠️**NOTE:** At present, the only available icon ID is `magnifying-glass-with-document`
 
