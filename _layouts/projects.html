@@ -5,6 +5,11 @@ layout: secondary
 <section class="projects">
     <div class="projects__inner">
         <h1 class="projects__heading">{{ page.title }}</h1>
+		{% if page.cta %}
+            <div class="projects__cta-wrap">
+                {% include button.html label=page.cta link=page.cta_link icon=page.cta_icon %}
+            </div>
+        {% endif %}
 
         {% for siteDataGroup in site.data.projects.groups %}
             <div class="projects__location">

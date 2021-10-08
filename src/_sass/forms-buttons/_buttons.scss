@@ -20,6 +20,26 @@
     }
 }
 
+// MODIFIER - Assign icon to be rendered within the button
+[class*="button--icon-"] {
+    display: inline-flex;
+
+    &:after {
+        content:"";
+        display:inline-block;
+        min-width: 45px;
+        background-color:$color_dark-blue;
+        background-repeat:no-repeat;
+        background-position:calc(50% + 2px) 50%;
+        margin:-7px -14px -7px 14px;
+    }
+}
+.button--icon-magnifying-glass-with-document {
+    &:after {
+        background-image: url(../img/icon-mag-glass-doc.svg);
+    }
+}
+
 .arrow-button {
     display:inline-block;
     color:$color_dark-blue;
