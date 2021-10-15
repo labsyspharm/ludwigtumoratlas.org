@@ -67,12 +67,17 @@
 /*
 */
 .anchor {
-    display:block;
-    position:relative;
-    top:(-$header_height_mobile - 20px);
+    margin-top:(-$header_height_mobile);
+    padding-top:$header_height_mobile;
 
     @include breakpoint(desktop) {
-        top:(-$header_height_desktop - 20px);
+        margin-top:(-$header_height_tablet);
+        padding-top:$header_height_tablet;
+    }
+
+    @include breakpoint(desktop-xxl) {
+        margin-top:(-$header_height_desktop);
+        padding-top:$header_height_desktop;
     }
 }
 

@@ -5,6 +5,9 @@ layout: secondary
 <section class="people">
     <div class="people__inner">
         <h1 class="people__heading">People</h1>
+        {% if page.subnav %}
+            {% include subnav.html links=page.subnav %}
+        {% endif %}
         {% if page.cta %}
             <div class="people__cta-wrap">
                 {% include button.html label=page.cta link=page.cta_link icon=page.cta_icon %}

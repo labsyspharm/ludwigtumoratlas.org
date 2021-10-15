@@ -9,6 +9,9 @@ layout: secondary
             {%- if page.sub_heading -%}
                 <div class="summary__sub-heading">{{ page.sub_heading }}</div>
             {%- endif -%}
+            {% if page.subnav %}
+                {% include subnav.html links=page.subnav %}
+            {% endif %}
         </div>
     </div>
 {%- endif -%}
