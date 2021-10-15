@@ -5,6 +5,9 @@ layout: secondary
 <section class="projects">
     <div class="projects__inner">
         <h1 class="projects__heading">{{ page.title }}</h1>
+        {% if page.subnav %}
+            {% include subnav.html links=page.subnav %}
+        {% endif %}
 		{% if page.cta %}
             <div class="projects__cta-wrap">
                 {% include button.html label=page.cta link=page.cta_link icon=page.cta_icon %}
@@ -12,7 +15,7 @@ layout: secondary
         {% endif %}
 
         {% for siteDataGroup in site.data.projects.groups %}
-            <div class="projects__location">
+            <div class="projects__location anchor" id="{{ siteDataGroup.id }}">
                 <h2 class="projects__location-name">{{ siteDataGroup.name }}</h2>
                 {% assign projects = site.projects | where: 'group', siteDataGroup.key | sort: 'title' %}
                 {% for project in projects %}
