@@ -1,7 +1,8 @@
 ---
 name: Akash Patnaik, MD, PhD
-positions: 
+positions:
   - Assistant Professor of Hematology/Oncology, Department of Medicine at the University of Chicago
+  - Investigator at the Ludwig Center at Chicago 
 
 photo: people/patnaik-akash.jpg
 
