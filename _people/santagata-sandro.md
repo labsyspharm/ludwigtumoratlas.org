@@ -1,7 +1,7 @@
 ---
 name: Sandro Santagata, MD, PhD
 positions:
-  - Principal Investigator of the Ludwig Center at Harvard and the Ludwig Tumor Atlas Project
+  - Principal Investigator of the Ludwig Center at Harvard and the Ludwig Tumor Atlas Project 
   - Neuropathologist in the Department of Pathology at Brigham and Women’s Hospital
   - Associate Professor in Pathology at Harvard Medical School
 

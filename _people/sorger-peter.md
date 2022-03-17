@@ -1,10 +1,9 @@
 ---
 name: Peter Sorger, PhD
 positions:
-  - Principal Investigator of the Ludwig Center at Harvard and the Ludwig Tumor Atlas Project
+  - Principal Investigator of the Ludwig Center at Harvard and the Ludwig Tumor Atlas Project 
   - Otto Krayer Professor of Systems Biology at Harvard Medical School
   - Head of the Harvard Program in Therapeutic Sciences (HiTS)
-  - Founding Director of the Laboratory of Systems Pharmacology
 
 photo: people/sorger-peter.jpg
 

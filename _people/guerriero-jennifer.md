@@ -2,9 +2,8 @@
 name: Jennifer Guerriero, PhD
 
 positions:
-  - Core member of the Harvard Tumor Atlas Team
+  - Core member of the Ludwig Center at Harvard and the Harvard Tumor Atlas Team
   - Assistant Professor at Harvard Medical School
-  - Lead Investigator at Brigham and Women’s Hospital
   - Director of the Breast Immunology Laboratory at Dana-Farber Cancer Institute
 
 photo: people/guerriero-jennifer.jpg
