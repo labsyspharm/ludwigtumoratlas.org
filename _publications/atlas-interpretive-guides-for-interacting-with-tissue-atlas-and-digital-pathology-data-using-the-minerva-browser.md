@@ -1,8 +1,8 @@
 ---
-title: 'Interpretive guides for interacting with tissue atlas and digital pathology data using the Minerva browser.'
-contributors: 'Rashid, R., Chen, Y.-A., Hoffer, J., Muhlich, J. L., Lin, J.-R., Krueger, R., Pfister, H., Mitchell, R., Santagata, S., & Sorger, P. K.'
-publication: Manuscript Submitted
-publication_link:
+title: 'Narrative online guides for the interpretation of digital-pathology images and tissue-atlas data.'
+contributors: 'Rashid, R., Chen, Y.-A., Hoffer, J., Muhlich, J. L., Lin, J.-R., Krueger, R., Pfister, H., Mitchell, R., Santagata, S., & Sorger, P. K. (2022)'
+publication: Nature Biomedical Engineering
+publication_link: doi.org/10.1038/s41551-021-00789-8
 
 image: publications/Ludwig_13-Rashid-et-al-2020-Bioarxiv.jpg
 
