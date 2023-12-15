@@ -1,14 +1,14 @@
 ---
-title: 'clinical efficacy and molecular response correlates of the WEE1 inhibitor adavosertib combined with cisplatin in patients with metastatic triple-negative breast cancer.'
-contributors: 'Keenan, T.E., Li, T., Vallius, T., Guerriero, J.L., Tayob, N., Kochupurakkal, B., Davis, J., Pastorello, R., Tahara, R.K., Anderson, L., Conway, J., He, M.X., Shannon, E., Godin, R.E., Sorger, P.K., D'Andrea, A., Overmoyer, B., Winer, E.P., Mittendorf, E.A., Van Allen, E.M., Shapiro, G.I, & Sara M. Tolaney. (2021).'
+title: 'Clinical efficacy and molecular response correlates of the WEE1 inhibitor adavosertib combined with cisplatin in patients with metastatic triple-negative breast cancer.'
+contributors: 'Keenan, TE, Li, T, Vallius, T, Guerriero, JL, Tayob, N, Kochupurakkal, B, Davis, J, Pastorello, R, Tahara, RK, Anderson, L, Conway, J, He, MX, Shannon, E, Godin, RE, Sorger, PK, D'Andrea, A, Overmoyer, B, Winer, EP, Mittendorf, EA, Van Allen, EM, Shapiro, GI, & Tolaney, SM. (2021).'
 publication: Clinical Cancer Research, 2(1), 66-82.
 publication_link: https://doi.org/10.1158/1078-0432.CCR-20-3089
 
-image: publication/harvard-clinical-efficacy-and-molecular-response-correlates-of-the-WEE1-inhibitor-adavosertib-combined-with-cisplatin-in-patients-with-metastatic-triple-negative-breast-cancer.jpg
+image: publications/harvard-clinical-efficacy-and-molecular-response-correlates-of-the-WEE1-inhibitor-adavosertib-combined-with-cisplatin-in-patients-with-metastatic-triple-negative-breast-cancer.jpg
 
 group: harvard
 
-date: 2021-01-20
+date: 2020-01-01
 
 minerva_link:
 rxiv_link:
