@@ -5,6 +5,7 @@ html {
 
 body {
     @extend %text-style-2;
+    overflow-x:hidden;
 }
 
 h1 {

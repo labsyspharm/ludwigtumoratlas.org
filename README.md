@@ -111,7 +111,93 @@ For any pages that render out body content (eg. project summary pages), a few no
     If values are specified, a CTA button will be displayed on the associated page directly below the title.  *Do not include brackets in the cta values.*
 
     ⚠️**NOTE:** At present, the only available icon ID is `magnifying-glass-with-document`
+- **Video** - Vimeo video support is available via the *vimeo* include file.  Basic usage is as follows:
+    ```
+    {% include vimeo.html id="158396727" %}
+    ```
+    Sample usage with some additional parameters:
+    ```
+    {% include vimeo.html id="158396727" autoplay=true muted=true time="1m" %}
+    ```
 
+    In the example above, we're indicating that the video should be muted and should autoplay, and that it should start at the 1 minute mark.  Note that some values can be overridden by the embed settings assigned on Vimeo's video configuration page (namely, `showVimeoTitle`, `byline`, `color`, and `portrait`).
+
+    Available parameters include:
+
+    | Parameter  | Supported Values | Default Value | Description
+    |:--------------|:------------|:------|:----------------------|
+    | `autoplay`    | true, false | false | Automatically start playback of the video.<br>**Note:** May require `muted` to be set to `true`, depending on browser and device.
+    | `byline`      | true, false | false | Show the author of the video (byline).†
+    | `color`       | [hex value] | "00adef" (Vimeo blue) | Color of the video controls.†‡
+    | `controls`    | true, false | true  | Hide all elements in the player (play bar, sharing buttons, etc) for a chromeless experience.‡
+    | `loop`        | true, false | false | Play the video again when it reaches the end, infinitely.
+    | `muted`       | true, false | false | Mute the audio on load (can be re-enabled by user, if controls are displayed).
+    | `playsinline` | true, false | true  | Play video inline on mobile devices instead of automatically going into fullscreen mode.
+    | `portrait`    | true, false | false | Show the author’s profile image (portrait).†
+    | `speed`       | true, false | false | Show speed controls in the player.‡
+    | `time`        | Time in minutes and/or seconds (for example, time="1m2s") | "0m" (Start of video) | Used to automatically begin playback at a specific point in time.
+    | `texttrack`   | A lowercase language code and optionally the locale and type of text track. (examples: "en", "en-US", "en.captions", "en.subtitles") | false | Displays a given cc/subtitle track by default in the player (provided the cc/subtitle track is available).
+    | `showVimeoTitle` | true, false | false | Show the video's title.†
+
+    † Value specified in the video's embed settings on site may override this.  
+    ‡ Requires a **Plus** account or higher.
+- **Video Card** - The *vimeo card* layout essentially wraps the *vimeo* embed (described above) in a card wrapper, with the title and description (optional) displayed below it, with a *Click to enlarge* link that opens the video in a modal overlay.  Note that all parameters available on the *vimeo* include are also available on the *vimeo card* include. In additional, 2 other parameters are available:
+
+    | Parameter     | Description
+    |:--------------|:------------|
+    | `title`       | The title of the video
+    | `description` | Video description
+    ```
+    {% include vimeo-card.html id="158396727" title="My Video Title" description="A short description of this video." %}
+    ```
+    Note that *vimeo cards* are typically displayed within a grid context, with 2 cards per row on desktop displays.  The markup for this (using bootstrap's grid) is as follows:
+    ```html
+    <div class="row mb-4">
+        <div class="col-md-6 mb-4">
+            {% include vimeo-card.html id="679370096" title="My Video Title" %}
+        </div>
+        <div class="col-md-6 mb-4">
+            {% include vimeo-card.html id="679368905" title="My Other Video Title" description="This video has a description." %}
+        </div>
+    </div>
+    ```
+- **Video Slider** - The *video slider* layout creates a carousel of videos, with a custom display card describing the content.  The slide expects an image, title, and video id, with an optional additional link that can be shown below the slide.
+
+    | Parameter     | Description
+    |:--------------|:------------|
+    | `id`          | The ID of the video (Vimeo or YouTube)
+    | `type`        | One of either 'vimeo' or 'youtube'
+    | `title`       | The title of the video
+    | `image`       | Image (typically a headshot) to be shown in the slide
+    | `link`        | (Optional) Additional link shown below the slide
+    | `label`       | (Optional) Label for the additional link
+    
+
+    The slider is comprised of the 3 includes:
+    - video-slider-start.html
+    - video-slider-slide.html (1 or more)
+    - video-slider-end.html
+    
+    Usage example:
+    ```liquid
+    {% include video-slider-start.html %}
+      {% include video-slide.html 
+        id="865802218" 
+        type="vimeo"
+        title="Atlas Introduction with Dr. Sandro Santagata and Sarah Arena" 
+        image="people/santagata-sandro.jpg"
+        link="/projects/determinants-of-immune-activity-and-molecular-features-in-brca1-2-mutation-carriers"
+        label="View Project"
+      %}
+      {% include video-slide.html 
+        id="865802218" 
+        type="vimeo"
+        title="Breast Cancer Atlas with Dr. Joan Brugge" 
+        image="people/brugge-joan.jpg"
+        link="/projects/determinants-of-immune-activity-and-molecular-features-in-brca1-2-mutation-carriers"
+        label="View Project"
+      %}
+    {% include video-slider-end.html %}
 
 ## Publishing Notes ##
 
