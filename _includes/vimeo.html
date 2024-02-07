@@ -75,7 +75,7 @@
     {% assign texttrack = '0' %}
 {% endif -%}
 
-{%- if include.title != nil and include.title == true %}
+{%- if include.showVimeoTitle != nil and include.showVimeoTitle == true %}
     {% assign title = '1' %}
 {% else %}
     {% assign title = '0' %}
@@ -83,5 +83,5 @@
 
 
 <div class="video-wrapper">
-  <iframe src="https://player.vimeo.com/video/{{ include.id }}?playsinline={{ playsinline }}&autoplay={{ autoplay }}&byline={{ byline }}&color={{ color }}&controls={{ controls }}&loop={{ loop }}&muted={{ muted }}&portrait={{ portrait }}&speed={{ speed }}&texttrack={{ texttrack }}&title={{ title }}#t={{ time }}" allowfullscreen></iframe>
+  <iframe src="https://player.vimeo.com/video/{{ include.id }}?playsinline={{ playsinline }}&autoplay={{ autoplay }}&byline={{ byline }}&color={{ color }}&controls={{ controls }}&loop={{ loop }}&muted={{ muted }}&portrait={{ portrait }}&speed={{ speed }}&texttrack={{ texttrack }}&title={{ title }}#t={{ time }}" allow="autoplay; fullscreen"></iframe>
 </div>
