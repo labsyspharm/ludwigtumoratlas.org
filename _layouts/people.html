@@ -14,7 +14,7 @@ layout: secondary
             </div>
         {% endif %}
         {% for siteDataGroup in site.data.people.groups %}
-            <div class="people__location">
+            <div class="people__location anchor" id="{{ siteDataGroup.key }}">
                 <h2 class="people__location-name">{{ siteDataGroup.name }}</h2>
                 {% assign people = site.people | where: 'group', siteDataGroup.key | sort: 'weight' %}
                 {% for person in people %}

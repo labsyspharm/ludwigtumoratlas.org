@@ -15,7 +15,7 @@ layout: secondary
         {% endif %}
 
         {% for siteDataGroup in site.data.projects.groups %}
-            <div class="projects__location anchor" id="{{ siteDataGroup.id }}">
+            <div class="projects__location anchor" id="{{ siteDataGroup.key }}">
                 <h2 class="projects__location-name">{{ siteDataGroup.name }}</h2>
                 {% assign projects = site.projects | where: 'group', siteDataGroup.key | sort: 'title' %}
                 {% for project in projects %}
