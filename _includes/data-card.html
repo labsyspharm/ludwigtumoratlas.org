@@ -1,6 +1,10 @@
 <div class="data-card">
     <div class="data-card__image">
-        <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=295&h=280&fit=crop" alt="Data image">
+        {% if include.content.image contains "http" %}
+            <img src="{{ include.content.image }}" alt="Data image">
+        {% else %}
+            <img src="{{ site.imgbaseurl }}{{ include.content.image }}?w=295&h=280&fit=crop" alt="Data image">
+        {% endif %}    
     </div>
     <div class="data-card__content">
         <p>{{ include.content.title }}</p>
