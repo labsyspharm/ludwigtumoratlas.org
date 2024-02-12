@@ -13,7 +13,7 @@ date: 2022-01-01
 minerva_link:
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35617956/
 show_page_link: /datasets/gray-rosenbluth-selfers-2022/
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---

@@ -11,7 +11,7 @@ group: lausanne
 date: 2020-01-01
 
 minerva_link:
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---

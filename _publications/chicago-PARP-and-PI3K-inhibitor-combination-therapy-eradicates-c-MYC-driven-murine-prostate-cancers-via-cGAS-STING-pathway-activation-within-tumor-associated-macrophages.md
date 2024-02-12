@@ -11,7 +11,7 @@ group: chicago
 date: 2021-10-04
 
 minerva_link:
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---

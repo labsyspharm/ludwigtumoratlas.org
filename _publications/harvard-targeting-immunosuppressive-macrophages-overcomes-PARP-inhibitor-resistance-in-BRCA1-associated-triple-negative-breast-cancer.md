@@ -11,7 +11,7 @@ group: harvard
 date: 2020-12-14
 
 minerva_link:
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---

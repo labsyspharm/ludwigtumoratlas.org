@@ -10,7 +10,7 @@ group: harvard
 date: 2021-03-16
 
 minerva_link:
-rxiv_link: 'https://doi.org/10.1101/2021.03.15.435473'
+preprint_link: 'https://doi.org/10.1101/2021.03.15.435473'
 pdf_link:
 show_page_link: false
 ---

@@ -11,7 +11,7 @@ group: mit
 date: 2021-01-20
 
 minerva_link:
-rxiv_link:
+preprint_link:
 pdf_link:
 show_page_link: false
 ---
