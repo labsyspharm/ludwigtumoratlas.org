@@ -11,7 +11,7 @@ group: atlas
 date: 2020-01-01
 
 minerva_link:
-rxiv_link: http://biorxiv.org/lookup/doi/10.1101/2020.03.27.001834
+preprint_link: http://biorxiv.org/lookup/doi/10.1101/2020.03.27.001834
 pdf_link:
 show_page_link: false
 ---

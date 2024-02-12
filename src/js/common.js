@@ -13,7 +13,12 @@ function initHeader() {
     }
 }
 
+function initCarousels() {
+    $('.carousel').slick();
+}
+
 exports.init = function() {
     // Do common initialization...
     initHeader();
+    initCarousels();
 };

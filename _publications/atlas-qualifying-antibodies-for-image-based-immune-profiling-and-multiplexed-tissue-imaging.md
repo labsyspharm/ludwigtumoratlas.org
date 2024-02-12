@@ -11,6 +11,6 @@ group: atlas
 date: 2019-01-01
 
 minerva_link:
-rxiv_link: 
+preprint_link: 
 show_page_link: false
 ---

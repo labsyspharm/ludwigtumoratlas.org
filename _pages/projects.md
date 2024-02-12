@@ -11,7 +11,7 @@ subnav:
   - name: "MIT"
     url: "#mit"
   - name: "University of Chicago"
-    url: "#uchicago"
+    url: "#chicago"
   - name: "Harvard"
     url: "#harvard"
  
