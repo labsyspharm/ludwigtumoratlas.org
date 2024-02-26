@@ -11,7 +11,7 @@ group: harvard
 date: 2020-05-17
 
 minerva_link:
-dataset_link: /atlas-datasets/gaglia-2022
+dataset_link: https://tissue-atlas.org/atlas-datasets/gaglia-2022
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35292783/
 preprint_link: https://doi.org/10.1101/2021.05.16.443704v1
 pdf_link:

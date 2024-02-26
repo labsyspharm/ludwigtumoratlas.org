@@ -11,7 +11,7 @@ date: 2022-01-01
 
 minerva_link:
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35058616/
-dataset_link: /atlas-datasets/mccaffrey-2022
+dataset_link: https://tissue-atlas.org/atlas-datasets/mccaffrey-2022
 preprint_link:
 pdf_link:
 show_page_link: false

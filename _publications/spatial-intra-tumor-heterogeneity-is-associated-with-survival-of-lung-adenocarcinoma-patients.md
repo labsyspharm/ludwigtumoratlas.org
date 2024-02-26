@@ -12,7 +12,7 @@ group: harvard
 date: 2022-06-01
 
 minerva_link:
-dataset_link: /atlas-datasets/wu-temko-maliga-2022/
+dataset_link: https://tissue-atlas.org/atlas-datasets/wu-temko-maliga-2022/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/36419822/
 preprint_link:
 pdf_link:

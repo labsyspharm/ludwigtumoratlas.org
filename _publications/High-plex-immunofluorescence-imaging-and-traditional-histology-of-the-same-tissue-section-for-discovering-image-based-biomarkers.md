@@ -11,7 +11,7 @@ group: harvard
 date: 2023-06-02
 
 minerva_link:
-dataset_link: /atlas-datasets/lin-chen-campton-2023/
+dataset_link: https://www.tissue-atlas.org/atlas-datasets/lin-chen-campton-2023/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/
 preprint_link: https://doi.org/10.1101/2022.09.28.509927
 pdf_link:

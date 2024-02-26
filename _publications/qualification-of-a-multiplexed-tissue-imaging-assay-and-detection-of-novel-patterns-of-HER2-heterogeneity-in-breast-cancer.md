@@ -11,7 +11,7 @@ group: featured
 date: 2024-01-02
 
 minerva_link:
-dataset_link: /atlas-datasets/guerriero-lin-santagata-2023/
+dataset_link: https://tissue-atlas.org/atlas-datasets/guerriero-lin-santagata-2023/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/38167908/
 rxiv_link:
 pdf_link:

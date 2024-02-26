@@ -11,7 +11,7 @@ group: harvard
 date: 2021-01-01
 
 minerva_link:
-dataset_link: /atlas-datasets/mehta-2020/
+dataset_link: https://tissue-atlas.org/atlas-datasets/mehta-2020/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/33738458/
 preprint_link:
 pdf_link:

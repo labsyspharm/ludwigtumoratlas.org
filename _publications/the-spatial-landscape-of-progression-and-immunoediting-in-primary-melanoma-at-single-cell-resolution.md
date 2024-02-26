@@ -11,7 +11,7 @@ group: harvard
 date: 2022-06-01
 
 minerva_link:
-dataset_link: /atlas-datasets/nirmal-maliga-vallius-2021/
+dataset_link: https://tissue-atlas.org/atlas-datasets/nirmal-maliga-vallius-2021/
 pubmed_link: https://pubmed.ncbi.nlm.nih.gov/35404441/
 preprint_link: https://doi.org/10.1101/2021.05.23.445310
 pdf_link:
