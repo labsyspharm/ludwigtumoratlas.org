@@ -4,7 +4,7 @@ contributors: 'Maliga Z, Kim DY, Bui AN, Lin JR, Dewan AK, Jadeja S, Murphy GF, 
 publication: J Invest Dermatol. S0022-202X(24):00107-6.
 publication_link: https://doi.org/10.1016/j.jid.2024.01.024
 
-image: publications/
+image: publications/immune-profiling-dermatologic-adverse-events.jpg
 
 group: harvard
 
