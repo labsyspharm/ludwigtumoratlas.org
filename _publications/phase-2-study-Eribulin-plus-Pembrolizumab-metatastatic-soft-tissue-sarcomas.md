@@ -4,7 +4,7 @@ contributors: 'Haddox CL, Nathenson MJ, Mazzola E, Lin JR, Baginska J, Nau A, We
 publication: Clin Cancer Res.
 publication_link: https://doi.org/10.1158/1078-0432.CCR-23-2250
 
-image: publications/phase-2-study-Eribulin-plus-Pembrolizumab-metatastatic-soft-tissue-sarcomas.png
+image: publications/phase-II-study-eribulin-plus-pembrolizumab-metastatic-soft-tissue-sarcomas.jpg
 
 group: harvard
 
