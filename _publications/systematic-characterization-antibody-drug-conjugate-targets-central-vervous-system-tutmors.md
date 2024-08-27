@@ -4,7 +4,7 @@ contributors: 'Coy S, Lee JS, Chan SJ, Woo T, Jones J, Alexandrescu S, Wen PY, S
 publication: Neuro Oncol, 26(3), 458-472.
 publication_link: https://doi.org/10.1093/neuonc/noad205
 
-image: publications/phase-II-study-eribulin-plus-pembrolizumab-metastatic-soft-tissue-sarcomas.jpg
+image: publications/systematic-characterization-antibody-drug-conjugate-targets.jpg
 
 group: harvard
 
